@@ -1,0 +1,55 @@
+---
+title: "CISS6022: Cybersecurity"
+subtitle: "Week 09</br>Cybersecurity and digital activism"
+author: ""
+institute: "The University of Sydney"
+date: "2026-02-23"
+date-format: long
+format:
+  revealjs:
+     # can set self-contained to false if not uploading to Canvas
+     # true makes the HTML files pretty big
+    self-contained: true
+    fig-format: retina
+    toc: true
+    toc-depth: 1
+    toc-title: "In this lecture"
+    theme: [default, "sydney.scss"]
+    code-line-numbers: false
+    slide-number: c
+    scrollable: false
+    pdf-max-pages-per-slide: 1
+    history: false # don't add each slide to browser history
+execute:
+  echo: true
+---
+
+# First section
+
+## Slide title
+
+::: callout-note
+### Note title
+
+Note text
+:::
+
+::: notes
+Speaker notes go here. Press `s` to see.
+:::
+
+::: footer
+Footers for comments, or links to further resources. These don't show up when printing the slides to pdf!
+:::
+
+## Slide with content
+
+-   Content item 1
+-   Content item 2
+-   Content item 3
+
+# Second section
+
+## Another slide
+
+Content goes here.
