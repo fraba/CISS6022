@@ -1,7 +1,7 @@
 ---
 title: "CISS6022: Cybersecurity"
-subtitle: "Week 01</br>Computers and controls"
-author: ""
+subtitle: "Week 01</br>Overview"
+author: "Francesco Bailo"
 institute: "The University of Sydney"
 date: "2026-02-23"
 date-format: long
@@ -24,32 +24,105 @@ execute:
   echo: true
 ---
 
-# First section
+## What Is This Unit About?
 
-## Slide title
+This unit bridges **technical foundations** and **political dimensions** of cybersecurity — designed for both engineering and non-engineering students.
 
-::: callout-note
-### Note title
+::: {.columns}
+::: {.column width="50%"}
+**Technical side** (Weeks 1–6)
 
-Note text
+- Computers & controls
+- Cryptography
+- Malware & programming
+- Network threats
+- Technical defences
+- Security operations (SOCs)
+:::
+::: {.column width="50%"}
+**Geopolitical & social side** (Weeks 7–13)
+
+- Power, territory & AI rivalry
+- Cyber operations & espionage
+- Hacktivism & digital repression
+- Transnational cybercrime
+- Disinformation & AI
+- Governance & democracy by design
+:::
 :::
 
-::: notes
-Speaker notes go here. Press `s` to see.
+---
+
+## Weekly Schedule at a Glance
+
+::: {.columns}
+::: {.column width="50%"}
+**Technical foundations**
+
+1. Computers and Controls
+2. Cryptography
+3. Programming and Malware
+4. Internet and Network Threats
+5. Technical Defence and Countermeasures
+6. Security Operations Centres (SOCs)
+:::
+::: {.column width="50%"}
+**Geopolitics & governance**
+
+7. Geopolitical Landscape & AI Rivalry
+8. **Crisis Simulation** *(no readings)*
+9. Cyber Operations & National Security
+10. Hacktivism & Digital Repression
+11. Regulating Transnational Cybercrime
+12. Disinformation, AI & Democracy
+13. Governance, Norms & Democracy by Design
+:::
 :::
 
-::: footer
-Footers for comments, or links to further resources. These don't show up when printing the slides to pdf!
-:::
+---
 
-## Slide with content
+## Assessments Overview
 
--   Content item 1
--   Content item 2
--   Content item 3
+| Assessment | Weight | Due |
+|------------|--------|-----|
+| Cyber Incident Video Presentation | 25% | Week 5 — 27 Mar 2026 |
+| Crisis Simulation Participation | 5% | Week 8 — 22 or 23 Apr 2026 |
+| Analytical Essay | 30% | Week 9 — 1 May 2026 |
+| Final Exam (pen-and-paper) | 40% | Formal exam period |
 
-# Second section
+---
 
-## Another slide
+## Assessment 1 — Cyber Incident Video Presentation (25%)
 
-Content goes here.
+**What:** A 10-minute video about a real cyber incident of your choice
+
+**Due:** 27 March 2026 (Week 5) — *submit via Canvas*
+
+**What to cover:**
+
+- Why the incident matters
+- Protection mechanisms in place at the time
+- The incident and its impacts
+- Broader implications
+
+**Marking (AI allowed):**
+
+- 40% of marks on **presentation quality** — clarity, engagement, structure
+- Not about accent or language fluency; about communicating clearly and confidently
+- Anything beyond 10 minutes will not be marked — practise!
+
+---
+
+## Assessments 2, 3 & 4
+
+**Crisis Simulation (5%) — Week 8, 17 April**
+
+Show up, play your assigned stakeholder role (government, hacktivists, UN, etc.) in a live two-hour cyber attack scenario. Groups and context provided a few weeks in advance.
+
+**Analytical Essay (30%) — 1 May 2026**
+
+A 2,500-word reflection on the simulation: the decisions your group made, how you negotiated with other groups, and what you learned — drawing on course readings. *You must attend the simulation to write this essay.* AI allowed.
+
+**Final Exam (40%) — Formal exam period**
+
+2-hour pen-and-paper exam: 60 multiple choice questions (30 technical, 30 arts/policy) + 2 short-answer questions (5 points each). AI prohibited.
