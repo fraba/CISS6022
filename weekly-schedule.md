@@ -1,15 +1,15 @@
 | WK | Topic | Learning Activity |
 |---|---|---|
-| Week 01 | Computers and controls | Seminar (2 hr) |
-| Week 02 | Cryptography | Seminar (2 hr) |
-| Week 03 | Programming and malware | Seminar (2 hr) |
-| Week 04 | Internet and network threats | Seminar (2 hr) |
-| Week 05 | Technical defence and counter measures | Seminar (2 hr) |
-| Week 06 | SOCs | Seminar (2 hr) |
-| Week 07 | The geopolitics of cybersecurity | Seminar (2 hr) |
-| Week 08 | Cyber warfare and national security | Seminar (2 hr) |
-| Week 09 | Cybersecurity and digital activism | Seminar (2 hr) |
-| Week 10 | Crisis simulation | Simulation laboratory (2 hr) |
-| Week 11 | Cybercrime and international law | Seminar (2 hr) |
-| Week 12 | Cyber governance | Seminar (2 hr) |
-| Week 13 | Misinformation, disinformation and cybersecurity | Seminar (2 hr) |
+| Week 01 | Secure System Design Principles | Seminar (2 hr) |
+| Week 02 | Authentication and Access Control | Seminar (2 hr) |
+| Week 03 | Common Cyber Attacks | Seminar (2 hr) |
+| Week 04 | Internet and Network Threats | Seminar (2 hr) |
+| Week 05 | Modern Systems & Incident Response | Seminar (2 hr) |
+| Week 06 | Secure System Design Principles | Seminar (2 hr) |
+| Week 07 | Geopolitical Landscape & AI Rivalry | Seminar (2 hr) |
+| Week 08 | *Crisis Simulation* | Seminar (2 hr) |
+| Week 09 | Cyber Operations & National Security | Seminar (2 hr) |
+| Week 10 | Hacktivism & Digital Repression | Simulation laboratory (2 hr) |
+| Week 11 | Regulating Transnational Cybercrime | Seminar (2 hr) |
+| Week 12 | Disinformation, AI & Democracy | Seminar (2 hr) |
+| Week 13 | Governance, Norms & Democracy by Design | Seminar (2 hr) |
