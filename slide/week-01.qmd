@@ -59,12 +59,12 @@ This unit bridges **technical foundations** and **political dimensions** of cybe
 ::: {.column width="50%"}
 **Technical foundations**
 
-1. Computers and Controls
-2. Cryptography
-3. Programming and Malware
+1. Secure System Design Principles
+2. Authentication and Access Control
+3. Common Cyber Attacks
 4. Internet and Network Threats
-5. Technical Defence and Countermeasures
-6. Security Operations Centres (SOCs)
+5. Modern Systems & Incident Response
+6. Secure System Design Principles
 :::
 ::: {.column width="50%"}
 **Geopolitics & governance**
