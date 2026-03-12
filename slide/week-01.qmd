@@ -115,7 +115,7 @@ This unit bridges **technical foundations** and **political dimensions** of cybe
 
 ## Assessments 2, 3 & 4
 
-**Crisis Simulation (5%) — Week 8, 17 April**
+**Crisis Simulation (5%) — Week 8, 22 or 23 April**
 
 Show up, play your assigned stakeholder role (government, hacktivists, UN, etc.) in a live two-hour cyber attack scenario. Groups and context provided a few weeks in advance.
 
@@ -125,4 +125,4 @@ A 2,500-word reflection on the simulation: the decisions your group made, how yo
 
 **Final Exam (40%) — Formal exam period**
 
-2-hour pen-and-paper exam: 60 multiple choice questions (30 technical, 30 arts/policy) + 2 short-answer questions (5 points each). AI prohibited.
+2-hour pen-and-paper exam: 60 multiple choice questions (30 technical, 30 arts/policy) ~~+ 2 short-answer questions (5 points each)~~. AI prohibited. (Note: There will be no short-answer questions in the exam.)
