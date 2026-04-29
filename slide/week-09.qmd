@@ -1,6 +1,6 @@
 ---
 title: "Week 09</br>Cyber Operations and National Security: From Espionage to Sabotage"
-subtitle: "CISS6022 Cybersecurity<br><br><br>Semester 1, 2026<br>Last updated: 2026-04-28"
+subtitle: "CISS6022 Cybersecurity<br><br><br>Semester 1, 2026<br>Last updated: 2026-04-29"
 author: "Francesco Bailo"
 format:
   revealjs:
@@ -121,12 +121,20 @@ Before we go further, let me ask you:
 3. **Enabling attacks** — supporting conventional military operations
 4. **Information environment manipulation** — shaping political discourse
 
-![](images/padlet_qr_code_wk09_01.png){fig-align="center" width=30%}
+:::: {.columns}
 
+::: {.column width="60%"}
 
----
+![](images/padlet_qr_code_wk09_01.png){fig-align="center" width=50%}
+:::
 
-<div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"><p style="padding:0;margin:0"><iframe src="https://padlet.com/embed/r4zqys31lgaojs70" frameborder="0" allow="camera;microphone;geolocation;display-capture;clipboard-write" style="width:100%;height:608px;display:block;padding:0;margin:0"></iframe></p><div style="display:flex;align-items:center;justify-content:end;margin:0;padding:8px 8px 8px 0"><a href="https://padlet.com?ref=embed" style="display:flex;align-items:center;gap:5px;flex-grow:0;margin:0;border:none;padding:0;text-decoration:none" target="_blank"><span aria-hidden style="color:#9E9E9E;font-size:10px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,sans-serif;line-height:1">Made with</span><img src="https://padlet.net/emails/padlet_email_logo_2026_text-dark-200.png" height="12" style="padding:0;margin:0;background:0 0;border:none;box-shadow:none;display:block" alt="Made with Padlet"></a></div></div>
+::: {.column width="40%"}
+
+- Or [padlet.com/sydney/ciss6022-week-09-r4zqys31lgaojs70](https://padlet.com/sydney/ciss6022-week-09-r4zqys31lgaojs70)
+
+:::
+
+:::
 
 # Part 2: The Toolkit of Cyber Warfare
 
@@ -183,9 +191,7 @@ In cyber warfare, ransomware transcends simple financial extortion (Bardin, 2025
 Disguised as ransomware but was actually a destructive wiper (malaware designed to *wipe* hard drives). Originated in Ukraine, spread globally. Estimated damages exceeded **$10 billion**.
 :::
 
----
-
-{{< video https://youtu.be/3-MSlNVqzYY?si=niM4zprWn3R7tEwn width="900" height="700" >}}
+- [Video: The Most Destructive Hack Ever Used: NotPetya](https://youtu.be/3-MSlNVqzYY?si=JQrN8wTTLZzB8rSe)
 
 ## APTs: The Long Game
 
@@ -254,10 +260,6 @@ Implication: Cyber weapons are more likely to be used **preemptively** or as **f
 A **strategic deterrent** is a capability that discourages an adversary from taking a particular action because the threatened cost of retaliation is so severe and so credible that the adversary decides it's not worth it. The logic is: "I know you can and will hurt me badly if I act, so I won't act."
 The textbook example is **nuclear weapons** during the **Cold War** and their Mutually Assured Destruction (MAD).  
 
-::: {style="text-align: center;"}
-{{< video https://www.youtube.com/embed/snTaSJk0n_Y?si=-_qf8-2JiHHnveIy&amp;start=94 width="600" height="400" >}}
-:::
-
 
 ## So far...
 
@@ -293,11 +295,20 @@ The Kill Chain is a useful conceptual tool, but real-world operations — especi
 
 ## 🧠 Quiz: Identify the Attack Type
 
+::: {.smaller}
+
 A software company that supplies IT management tools to thousands of organisations — including government agencies — is compromised. The attackers insert malicious code into a routine software update. When customers install the update, the attackers gain access to their networks. The operation goes undetected for months, during which the attackers quietly exfiltrate data from selected high-value targets.
 
+:::
 . . .
 
+::: {.smaller}
+
 Which type(s) from our taxonomy best describe this operation?
+
+:::: {.columns}
+
+::: {.column width="50%"}
 
 a. DDoS attack
 b. Supply chain attack
@@ -305,12 +316,19 @@ c. Zero-day exploit
 d. Ransomware
 e. Advanced Persistent Threat (APT)
 
-![](images/menti_qr_code_wk09.png){fig-align="center" width=12%}
+:::
 
----
+::: {.column width="50%"}
 
-<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-popups allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/app/presentation/ales843mrfudri9knpxtd8njbmpcdsou/embed' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>
+![](images/menti_qr_code_wk09.png){fig-align="center" width=35%}
 
+- Or go to [menti.com/al8mhgf3hyc6](https://www.menti.com/al8mhgf3hyc6)
+
+:::
+
+:::
+
+:::
 
 ---
 
@@ -344,11 +362,7 @@ e. Advanced Persistent Threat (APT)
 Buchanan's account is essential here. Emphasise this as the paradigm case of cyber sabotage — it showed what was possible but also revealed significant limitations.
 :::
 
----
-
-::: {style="text-align: center;"}
-{{< video https://youtu.be/EOPLN-MVKY4?si=kOyZA8FAGGSYX-Ma width="600" height="400" >}} 
-:::
+- [Video: The Incredible Stuxnet Cyberweapon Explained by a Retired Windows Engineer](https://youtu.be/EOPLN-MVKY4?si=Gq80y-ewHJgLhhwk)
 
 ## Stuxnet: How It Worked
 
@@ -417,13 +431,25 @@ The first major example of **cyber blockade** (Whyte & Mazanec, Ch. 7):
 
 . . .
 
-![](images/tallinn.webp){width=20% fig-align="center"}
+:::: {.columns}
+
+::: {.column width="40%"}
+
+![](images/tallinn.webp){width=100% fig-align="center"}
+
+:::
+
+::: {.column width="60%"}
 
 - **Trigger**: Dispute over relocation of the Bronze Soldier of Tallinn (Soviet-era memorial)
 - **Phase 1**: Website defacement, DDoS attacks against government sites
 - **Phase 2**: Over **1 million zombie computers** worldwide flooding Estonian servers with 1,000x normal traffic
 - **Effect**: Estonia largely **cut off from the outside world** for days
 - **Attribution**: Evidence pointed to Russia, but centralised control was unclear
+
+:::
+
+:::
 
 . . .
 
@@ -476,7 +502,9 @@ Let's compare these cases across key dimensions:
 
 . . .
 
-![](images/padlet_qr_code_wk09_01.png){fig-align="center" width=30%}
+![](images/padlet_qr_code_wk09_02.png){fig-align="center" width=25%}
+
+Or here: [/padlet.com/sydney/ciss6022-week-09-02-70dbwtxzvt53jf6g](https://padlet.com/sydney/ciss6022-week-09-02-70dbwtxzvt53jf6g)
 
 ::: notes
 Give 5 minutes. Students should classify each as CNE/CNA, identify objectives (sabotage, disruption, enabling), note whether physical effects occurred, and discuss attribution certainty. Debrief by highlighting that even the most severe operations — Stuxnet — did not cause casualties, and most cyber conflict remains below the threshold of "armed attack."
@@ -484,7 +512,22 @@ Give 5 minutes. Students should classify each as CNE/CNA, identify objectives (s
 
 ---
 
-<div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"><p style="padding:0;margin:0"><iframe src="https://padlet.com/embed/70dbwtxzvt53jf6g" frameborder="0" allow="camera;microphone;geolocation;display-capture;clipboard-write" style="width:100%;height:608px;display:block;padding:0;margin:0"></iframe></p><div style="display:flex;align-items:center;justify-content:end;margin:0;padding:8px 8px 8px 0"><a href="https://padlet.com?ref=embed" style="display:flex;align-items:center;gap:5px;flex-grow:0;margin:0;border:none;padding:0;text-decoration:none" target="_blank"><span aria-hidden style="color:#9E9E9E;font-size:10px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,sans-serif;line-height:1">Made with</span><img src="https://padlet.net/emails/padlet_email_logo_2026_text-dark-200.png" height="12" style="padding:0;margin:0;background:0 0;border:none;box-shadow:none;display:block" alt="Made with Padlet"></a></div></div>
+### Taxonomy
+
+1. **Advanced Persistent Threats (APTs)**
+2. **Ransomware**
+3. **Zero-day exploits**
+4. **DDoS attacks**
+5. **Supply chain attacks**
+6. **Social engineering / Spear phishing**
+
+### Objectives
+
+1. **Information exfiltration**
+2. **Disruption, degradation, or destruction**
+3. **Enabling attacks**
+4. **Information environment manipulation**
+
 
 ---
 
@@ -615,18 +658,6 @@ Thomas Rid (2012) argues that **cyber war has never happened** and likely never 
 - Cyber operations integrated with kinetic operations (Ukraine) blur the line
 - The effects of espionage and subversion can be profoundly destabilising even without violence
 
-## 🗣️ Active Learning: Does "Cyber War" Exist?
-
-Based on what we've covered:
-
-. . .
-
-- Do you agree with Rid that "cyber war will not take place"?
-- Is the term "cyber war" useful or misleading?
-- Should we think of cyber operations as a **new form of conflict** or an extension of traditional espionage and sabotage?
-
-::: notes
-Open floor discussion — 5 minutes. This maps directly to the Rid recommended reading. Push students to consider both sides. Some may argue that the term is useful for raising awareness and allocating resources even if technically inaccurate. Others may argue it inflates threat perceptions and leads to militarised responses to what is essentially espionage.
 :::
 
 ## 🗣️ Active Learning: Applying What We've Discussed
@@ -639,9 +670,11 @@ Think about a country — your home country or Australia:
 - Given what you know about the characteristics of cyber weapons (attribution challenges, asymmetry, deterrence problems), how should it respond?
 - Is a "defend forward" approach appropriate for all countries, or mainly for great powers?
 
-::: notes
-This is a good capstone discussion — 5 minutes in pairs, then brief sharing. It connects the theoretical material to students' own contexts. Encourage students to think about whether smaller nations have different strategic options than the US.
-:::
+![](images/padlet_qr_code_wk09_03.png){fig-align="center" width=25%}
+
+Or here: [padlet.com/sydney/ciss6022-week-09-03-c3htxzs7e77zx3k8](https://padlet.com/sydney/ciss6022-week-09-03-c3htxzs7e77zx3k8)
+
+
 
 ## Summary: Key Takeaways
 
