@@ -19,6 +19,11 @@ format:
 
 I would like to acknowledge the Traditional Owners of Australia and recognise their continuing connection to land, water and culture. The University of Sydney is located on the land of the Gadigal people of the Eora Nation. I pay my respects to their Elders, past and present.
 
+## Anonymous feedback on Crisis Simulation
+
+
+![](images/sres-simulation-feedback.png){fig-align="center" width=30%}
+
 ## This Week's Readings
 
 ::: {layout-ncol="2"}
