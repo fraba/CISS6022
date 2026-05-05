@@ -1,9 +1,9 @@
 ---
 title: "CISS6022: Cybersecurity"
-subtitle: "Week 10</br>Crisis simulation"
+subtitle: "Week 10</br>Hacktivism & Digital Repression"
 author: ""
 institute: "The University of Sydney"
-date: "2026-02-23"
+date: "2026-05-06"
 date-format: long
 format:
   revealjs:
@@ -24,32 +24,682 @@ execute:
   echo: true
 ---
 
-# First section
+## Acknowledgement of Country
 
-## Slide title
+I would like to acknowledge the Traditional Owners of Australia and recognise their continuing connection to land, water and culture. The University of Sydney is located on the land of the Gadigal people of the Eora Nation. I pay my respects to their Elders, past and present.
 
-::: callout-note
-### Note title
 
-Note text
+# Today's plan {.smaller}
+
+::: columns
+::: {.column width="50%"}
+**Part 1 — Defining Hacktivism**
+
+- Origins and definitions
+- Forms and tactics
+- Hacktivism vs cybercrime vs cyberterrorism
+
+**Part 2 — Digital Repression**
+
+- From analog to digital repression
+- Earl et al. typology (Tables 1 & 2)
+- State and private actors, democracies and autocracies
 :::
 
-::: notes
-Speaker notes go here. Press `s` to see.
+::: {.column width="50%"}
+**Part 3 — Public Support for Hacktivism**
+
+- What drives support and opposition? (Ireland 2024)
+- Trust, civic participation, and utilitarianism
+
+:::
 :::
 
-::: footer
-Footers for comments, or links to further resources. These don't show up when printing the slides to pdf!
+## Today's plan {.smaller}
+
+::: columns
+::: {.column width="50%"}
+**Part 1 — Defining Hacktivism** (~30 min)
+
+- Origins and definitions
+- Forms and tactics
+- Hacktivism vs cybercrime vs cyberterrorism
+- 🟢 In-class activity 1
+
+**Part 2 — Digital Repression** (~35 min)
+
+- From analog to digital repression
+- Earl et al. typology (Tables 1 & 2)
+- State and private actors, democracies and autocracies
+- 🟢 In-class activity 2
 :::
 
-## Slide with content
+::: {.column width="50%"}
 
--   Content item 1
--   Content item 2
--   Content item 3
+*~ 10 min break*
 
-# Second section
+**Part 3 — Public Support for Hacktivism** (~25 min)
 
-## Another slide
+- What drives support and opposition? (Ireland 2024)
+- Trust, civic participation, and utilitarianism
+- 🟢 In-class activity 3
 
-Content goes here.
+**Wrap-up** (~10 min)
+
+- Key takeaways and connections across readings
+:::
+:::
+
+## Today's readings
+
+::: columns
+::: {.column width="50%"}
+
+**Required readings**
+
+- Earl, J., Maher, T. V., & Pan, J. (2022). The digital repression of social movements, protest, and activism: A synthetic review. *Science Advances*, 8(10).
+
+- Gawel, H. (2024). Hacktivism. *Internet Policy Review*, 13(2).
+
+- Ireland, L. (2024). We are all (not) Anonymous: Individual- and country-level correlates of support for and opposition to hacktivism. *New Media & Society*, 26(8), 4429–4453.
+
+:::
+::: {.column width="50%"}
+
+**Recommended readings**
+
+- George, J. J., & Leidner, D. E. (2019). From clicktivism to hacktivism: Understanding digital activism. *Information and Organization*, 29(3).
+
+- Chapter 5 — Section on Hacktivism.
+
+:::
+:::
+
+# Part 1 — Defining Hacktivism {background-color="#2c3e50"}
+
+## What is hacktivism?
+
+> A non-violent action in the digital space, using legal or illegal solutions to achieve a stated goal of civic dissent, raising civic awareness, or disseminating socially relevant information.
+>
+> — George & Leidner (2019); Romagna (2020)
+
+. . .
+
+**Key distinction**: Hacktivists, unlike cybercriminals, are *not* motivated by financial or personal gain (Ireland, 2022; Jordan & Taylor, 2004).
+
+. . .
+
+The term is a **portmanteau** of *"hacking"* and *"activism"* — coined by the group **Cult of the Dead Cow** in 1996 (Gawel, 2024).
+
+## Origin of the term: "Hack"
+
+- The term **"hack"** was popularised in the 1960s at MIT — meaning clever pranks characterised by ingenuity and style, causing no harm (Coleman, 2020; Erickson, 2008).
+
+. . .
+
+- Over time, "hack" and "hacker" acquired negative connotations through media coverage associating them with illegal computer intrusion (Gunkel, 2005; Hampson, 2012).
+
+. . .
+
+- **Critical distinction** (Gawel, 2024):
+  - **Hackers** = people with extensive knowledge of computer systems who create, alter, or improve them — often creatively repurposing systems.
+  - **Crackers** = those who hack computers with *malicious intent*.
+
+## From 4chan to Anonymous
+
+::: columns
+::: {.column width="60%"}
+
+**4chan.org (est. 2003)** — Anonymous posting of any content, including controversial material. This created a gathering place for hackers with shared political views.
+
+. . .
+
+**Anonymous** emerged from this space:
+
+- Decentralised, leaderless, grassroots
+- Actions are ad hoc, targeting specific demands
+- Secretive and widespread — difficult to define
+- The Guy Fawkes mask became its trademark
+
+:::
+::: {.column width="40%"}
+
+**Project Chanology** (2008):
+
+- Anonymous vs. the Church of Scientology
+- The Church was trying to suppress online criticism
+- Anonymous framed this as an attack on **free speech**
+- Released their first self-referential video online
+
+:::
+:::
+
+## Forms and tactics of hacktivism (Gawel, 2024)
+
+| Tactic | Description | Example |
+|--------|-------------|---------|
+| **Website defacement** | Altering a website's content | Teamr00t defaced a Syrian gov. site (2012) |
+| **DDoS attacks** | Flooding a network with requests to shut it down | Estonia cyberattack (2007) |
+| **Data leaks** | Stealing and releasing confidential information | Anonymous leaking police records |
+| **Email bombing** | Flooding a target with mass emails | Various campaigns |
+| **Redirects** | Sending users to a different website | Page swapping campaigns |
+| **Software development** | Building tools for circumvention | Tor, privacy tools |
+
+. . .
+
+**Hacker culture values humour** — many hacktivists use humour to convey their points, "for the lulz" (Coleman, 2013).
+
+## The blurry line: Hacktivism, civil disobedience, or cyberterrorism?
+
+::: columns
+::: {.column width="50%"}
+
+**As civil disobedience** (Delmas, 2018):
+
+- Conducted openly
+- Non-violent
+- Conscientious
+- Usually adheres to norms of accountability
+
+Huschle (2002) argues hacktivism often **underperforms** as civil disobedience because it is not public enough and does not sufficiently respect the law.
+
+:::
+::: {.column width="50%"}
+
+**The cyberterrorism problem**:
+
+- Denning (2001): Cyber-terrorism = politically motivated hacking intended to cause **serious damage** (loss of life, economic harm).
+- Many security experts describe hacktivism as a "moderate form of cyberterrorism" because the **methods** overlap, even though **motivations, scale, and outcomes** differ significantly.
+
+. . .
+
+The **framing** matters enormously — governments often treat hacktivism as a form of digital terrorism (Gawel, 2024).
+
+:::
+:::
+
+## Clicktivism → Hacktivism continuum
+
+::: {.callout-note}
+## Recommended reading
+George & Leidner (2019) outline a spectrum of digital activism, from low-engagement **clicktivism** (liking, sharing, signing petitions) to high-engagement **hacktivism** (DDoS attacks, data breaches, defacement).
+:::
+
+. . .
+
+The key insight: **directness** and **contentiousness** distinguish hacktivism from online activism. Hacktivism involves direct action that goes beyond passive civic participation — this is what makes it more effective but also more controversial.
+
+## 🟢 In-class activity 1 — Mentimeter {background-color="#27ae60"}
+
+::: {style="text-align: center; color: white; font-size: 1.3em;"}
+
+**Where do you draw the line?**
+
+Go to **menti.com** and enter the code: [INSERT CODE]
+
+**Question 1** (Word cloud): *What is the first word that comes to mind when you hear "hacktivism"?*
+
+**Question 2** (Scale 1–5): *To what extent do you agree: "Hacktivism is a legitimate form of political protest."*
+
+**Question 3** (Multiple choice): *Have you ever participated in any form of digital activism?*
+
+- Signed an online petition
+- Shared a political post on social media
+- Donated to a cause online
+- Participated in a coordinated online campaign
+- None of the above
+
+We will discuss the results together.
+
+:::
+
+# Part 2 — Digital Repression {background-color="#2c3e50"}
+
+## What is digital repression? (Earl et al., 2022)
+
+> Actions directed at a target to raise the target's costs for digital social movement activity **and/or** the use of digital or social media to raise the costs for social movement activity, wherever that contestation takes place.
+
+. . .
+
+This is a **capacious concept** that includes:
+
+1. The use of **traditional repressive techniques** against digital protesters (e.g., arresting bloggers)
+2. The use of **digital tools** in performing traditional repression (e.g., digital surveillance)
+3. The development and deployment of **information strategies** designed to diminish protest (e.g., China's 50-Cent Army)
+
+## The original Earl (2003) typology
+
+Three critical dimensions:
+
+1. **Actor type**: State (tightly or loosely coupled with national officials) vs. private agents
+
+. . .
+
+2. **Visibility**: Overt (repressors accept they may be observed) vs. covert (repressors try to conceal actions/motivations)
+
+. . .
+
+3. **Mechanism**: Coercion (force, violence, arrests) vs. channeling (incentives for preferred behaviour, overbroad rules)
+
+. . .
+
+Crossing these three dimensions → **12 types of repression** → Now applied to the digital context.
+
+## Table 1: Digital repression drawing on traditional processes {.smaller}
+
+|  | **Physical coercion** |  | **Channeling** |  |
+|---|---|---|---|---|
+|  | Overt | Covert | Overt | Covert |
+| **State agents (national)** | Violence/legal action against digital activists (arrest of bloggers) | Digital surveillance by national authorities (NSA) | State-sanctioned grievance platforms (White House petitions) | Laws limiting online speech (defamation, morality laws) |
+| **State agents (local)** | Arrests of Twitter account holders by local police | Local police stingray use to monitor protesters | Local government complaint sites | Regional social credit systems |
+| **Private agents** | Doxing and harassing protesters online; private lawsuits | Security contractors tracking protesters; surveillance capitalism | Corporate social media policies for employees | Platform community standards (Facebook, Twitter) |
+
+::: {.callout-tip}
+Each cell represents a distinct type of digital repression with different causal logics and consequences.
+:::
+
+## Overt coercion: Key examples
+
+::: columns
+::: {.column width="50%"}
+
+**Non-democratic contexts:**
+
+- Imprisonment of Saudi bloggers
+- Azerbaijan's crackdown on digital activists
+- Kazakhstan's arrest of bloggers and online activists
+- Syrian government threatening diaspora activists' families
+
+:::
+::: {.column width="50%"}
+
+**Democratic contexts:**
+
+- British police using social media for **pre-emptive arrests** before protests
+- FBI using Twitter posts to justify raids on activists' homes
+- US state police arresting individuals who tweeted about police activity at protests
+
+:::
+:::
+
+. . .
+
+::: {.callout-important}
+**Key theme**: Repression has never been the exclusive domain of autocrats. Democracies engage in digital repression too (Earl et al., 2022).
+:::
+
+## Covert coercion: Digital surveillance
+
+- **Scale** is what's new: Digital tools allow surveillance to happen at the Internet backbone or ISP level — providing unprecedented windows into public discontent.
+
+. . .
+
+- States like India and China have had **direct access** to telecom networks.
+
+. . .
+
+- Western democracies (US, UK) have substantial surveillance capacities too — including covert access to telecom networks (Snowden leaks).
+
+. . .
+
+- **Surveillance capitalism**: Private corporations harvest, join, analyse, and sell private data — this can be used to track activists and movements.
+
+. . .
+
+- Companies like **NSO Group** sell spyware that turns mobile phones into surveillance tools.
+
+## Channeling: Incentives and constraints
+
+**Overt channeling** = Providing forums for "approved" expression:
+
+- White House petitioning platforms
+- Chinese government complaint portals (100% of provincial governments by 2006)
+
+. . .
+
+**Covert channeling** = Overbroad laws that obscure attacks on dissent:
+
+- Russia's "Clean Internet" (RuNet)
+- Turkey's anti-"immoral" online activity laws
+- China's laws against disparaging national heroes
+- India's anti-defamation laws
+
+. . .
+
+**Social credit systems** = China aspires to a national system that incentivises pro-government speech and action — going far beyond merely discouraging dissent.
+
+## Table 2: Information control and channeling {.smaller}
+
+|  | **Information coercion** |  | **Information channeling** |  |
+|---|---|---|---|---|
+|  | Overt | Covert | Overt | Covert |
+| **State agents (national)** | Internet shutdowns, state-based content filtering | Content filtering invisible to users (returning 404 errors) | Gov. accounts flooding hashtags with irrelevant material | Government disinformation campaigns |
+| **State agents (local)** | Regional Internet blackouts | Regional invisible content filtering | Local gov. flooding online spaces | Local government disinformation |
+| **Private agents** | Deplatforming activists, content moderation | Shadow banning, down-ranking, throttling | Private actors flooding hashtags with spam | Private disinformation campaigns |
+
+. . .
+
+::: {.callout-tip}
+**What's genuinely new?** Information channeling aims to influence **behaviour** — not just beliefs. It prevents people from finding or encountering information they would otherwise have supported.
+:::
+
+## Information coercion: Internet shutdowns
+
+- Howard et al. (2011): **606 incidents** in 99 countries since 1995 — 39% in democratic countries.
+
+. . .
+
+- Egypt's Internet shutdown during the 2011 uprising: slowly implemented, **backfired** — pushed more people to the streets (Hassanpour, 2014).
+
+. . .
+
+- China's "Great Firewall" blocks objectionable websites from IP addresses within the country.
+
+. . .
+
+- **DDoS attacks** by states: coordinated efforts to disrupt online communication — difficult to attribute, hence "covert."
+
+## Information channeling: Flooding the zone
+
+::: columns
+::: {.column width="50%"}
+
+**Overt channeling:**
+
+- Venezuela: regime mobilised proregime National Assembly members to tweet to **redirect** online conversation away from protest narratives (Munger et al., 2019).
+- Kazakhstan: State-owned service providers fill social networks with "lowbrow" nonpolitical content.
+- Gulf countries: mass-produce online content with **bot accounts** to drown out critics.
+
+:::
+::: {.column width="50%"}
+
+**Covert channeling:**
+
+- Russia's Internet Research Agency: coordinated troll and bot accounts disguised as American citizens posted false information about BLM to increase polarisation.
+- China's **50-Cent Army**: thousands of county-level propaganda departments fabricate social media content as if ordinary citizens.
+- Mexico's **"Peñabots"**: promote trends and spread false information to distract from government criticism.
+
+:::
+:::
+
+## Private actors in digital repression
+
+::: {.callout-important}
+**A critical insight from Earl et al. (2022):** Online, there is **no legally protected genuine public space** for free speech and assembly. All major platforms are private property. This makes democracies look more like autocracies in terms of digital protest rights.
+:::
+
+. . .
+
+- Platform community standards shape online dissent — dictating which tactics and causes are removed.
+- Companies can independently remove content **or** be compelled by governments.
+- Surveillance capitalism creates a marketplace for repressive tools.
+- Private actors have commodified repression — selling surveillance tools, spyware, and AI systems to governments.
+
+## Consequences of digital repression
+
+The relationship between repression and activism is **not straightforward**:
+
+. . .
+
+- **Deterrence**: Some forms of repression successfully discourage activism.
+- **Backfire/Backlash**: Highly visible, sudden repression often backfires — Egypt's Internet shutdown pushed more people to the streets.
+- **Timing matters**: Maintaining shutdowns beyond a week → lower protest rates. Long-term censorship → people don't develop demand for censored information (Chen & Yang, 2019).
+
+. . .
+
+- **Covert strategies** and information channeling tend to **deter** if their purposes are not revealed.
+- Arrests of prominent activists may demobilise activists but can **radicalise** their online supporters.
+
+## 🟢 In-class activity 2 — Padlet {background-color="#27ae60"}
+
+::: {style="text-align: center; color: white; font-size: 1.3em;"}
+
+**Mapping digital repression in the wild**
+
+Go to the Padlet board: [INSERT PADLET LINK]
+
+**Task**: Post one real-world example of digital repression that you have encountered, read about, or experienced. For each example, tell us:
+
+1. **What happened?** (brief description)
+2. **Who was the repressor?** (state national / state local / private actor)
+3. **What type?** (overt coercion / covert coercion / overt channeling / covert channeling / information coercion / information channeling)
+4. **Which cell** of Table 1 or Table 2 does it belong to?
+
+You can post anonymously. Take **5 minutes** to post, then we will review and discuss the most interesting examples together.
+
+:::
+
+---
+
+::: {style="text-align: center; font-size: 2em; margin-top: 3em;"}
+
+☕ **Break — 10 minutes**
+
+:::
+
+# Part 3 — Public Support for Hacktivism {background-color="#2c3e50"}
+
+## Why does public support matter? (Ireland, 2024)
+
+- Hacktivist campaigns often **depend** on public support for success.
+
+. . .
+
+- Public support can be **active**: volunteering computers for DDoS, participating by clicking links, providing tools/tutorials.
+
+. . .
+
+- Public support can be **passive**: refraining from disclosing hacktivist identities, following campaigns on social media (clicktivism, metavoicing).
+
+. . .
+
+- **Example**: Anonymous' #OpParis (2015) gained supporters through social media and created a huge wave of attention.
+
+. . .
+
+- **Example**: AnonyOps helped raise awareness of SOPA/PIPA — the bills lost political support and were defeated.
+
+## Ireland's (2024) model of hacktivism support
+
+| Level | Influencing factors |
+|-------|-------------------|
+| **Country-level** (socio-legal context) | Accessible, impartial, and effective judicial measures |
+| | Effective civic participation mechanisms |
+| **Individual-level** (perceptions) | Trust in legal/state authorities |
+| | Perceptions of hacktivists' utilitarian function |
+| | Trust in alternative actors (citizens) |
+
+. . .
+
+**Data**: Representative survey from **23 countries** (n = 23,140), using the 2016 CIGI-Ipsos Global Survey on Internet Security and Trust.
+
+## Key findings: What drives support?
+
+**More support for hacktivism is associated with:**
+
+- More positive views of hacktivists' **utilitarian functions** (keeping actors accountable) — strongest predictor
+- Trust in **citizens** to enforce data governance
+- Countries with **less effective civic participation** mechanisms
+
+. . .
+
+**Less support (more opposition) is associated with:**
+
+- Greater **trust in legal and state authorities**
+- Support for **government involvement** in enforcing data rules
+- Countries with **more effective civic participation**
+
+## The role of effective justice
+
+An interesting **asymmetry** in the findings:
+
+. . .
+
+- Effective justice was **not** significantly associated with *more support* for hacktivism...
+
+. . .
+
+- ...but **was** associated with *less opposition* to hacktivism.
+
+. . .
+
+**Possible explanation** (Ireland, 2024):
+
+People in high-justice countries may support the **right to protest** (less opposition) but may not support the **actual acts** of hacktivism (no increase in support) — because they believe there are legitimate alternatives available.
+
+## Cross-country variation
+
+::: columns
+::: {.column width="50%"}
+
+**Highest mean support:**
+
+- India
+- Kenya
+- Poland
+
+**Highest mean opposition:**
+
+- Pakistan
+- Tunisia
+- Egypt
+
+:::
+::: {.column width="50%"}
+
+**Key patterns:**
+
+- In countries with **blocked civic participation**, hacktivism becomes a more attractive alternative — less costly, fewer resources needed, no physical presence required.
+
+- The public seems to view hacktivists as part of the **system itself** — playing an "immune function" as overseers who keep the system in check.
+
+:::
+:::
+
+## Hacktivists' self-image vs. public perception
+
+::: columns
+::: {.column width="50%"}
+
+**Self-image** (Tanczer, 2017):
+
+- Hacktivists see themselves as **security** within the larger ecosystem
+- They improve security and increase awareness for public safety
+- They view their actions as civil disobedience for the common good
+
+:::
+::: {.column width="50%"}
+
+**Public perception** (Ireland, 2024):
+
+- The public aligns with this self-image to some degree
+- People who believe hacktivists have **utilitarian motives** are more supportive
+- But: hacktivists themselves undermine support when they acknowledge exploits are "for the lulz"
+
+:::
+:::
+
+. . .
+
+::: {.callout-note}
+## Recommended reading
+George & Leidner (2019) outline how the boundary between participant and public is often blurred along the clicktivism-to-hacktivism continuum. Support exists on a spectrum.
+:::
+
+## 🟢 In-class activity 3 — Mentimeter {background-color="#27ae60"}
+
+::: {style="text-align: center; color: white; font-size: 1.3em;"}
+
+**Would you support a hacktivist campaign?**
+
+Go to **menti.com** and enter the code: [INSERT CODE]
+
+**Scenario**: A hacktivist group leaks internal documents from a large corporation showing it has been dumping toxic waste illegally. The government has not acted despite complaints.
+
+**Question 1** (Scale 1–5): *Do you support the hacktivist group's action in this scenario?*
+
+**Question 2** (Scale 1–5): *Would your answer change if the target were a government agency instead of a corporation?*
+
+**Question 3** (Open text): *What is the single most important factor shaping your answer — trust in authorities, belief in the cause, concern about legality, or something else?*
+
+We will review the results and connect them to Ireland's findings.
+
+:::
+
+# Wrap-up {background-color="#2c3e50"}
+
+## Connecting the three readings
+
+::: columns
+::: {.column width="33%"}
+
+**Gawel (2024)**
+
+Hacktivism is a form of **digital direct action** — distinguished from cybercrime by intent, not method.
+
+It exists on a spectrum from civil disobedience to actions that governments label cyberterrorism.
+
+:::
+::: {.column width="33%"}
+
+**Earl et al. (2022)**
+
+States and private actors respond with a diverse toolkit of **digital repression** — from overt violence to covert information channeling.
+
+Repression is not exclusive to autocracies and can backfire.
+
+:::
+::: {.column width="34%"}
+
+**Ireland (2024)**
+
+Public support is shaped by **trust**, **civic participation**, and **perceived utility** of hacktivist actions.
+
+When formal systems fail, people are more open to extra-legal alternatives.
+
+:::
+:::
+
+. . .
+
+::: {.callout-important}
+The three readings form a cycle: hacktivism emerges where civic channels fail → states respond with digital repression → public support for hacktivism depends on how legitimate and effective both the state and the hacktivists are perceived to be.
+:::
+
+## Summary: Key takeaways
+
+1. **Hacktivism** sits at the intersection of technology and activism — distinguished from cybercrime by *intent*, not method.
+
+. . .
+
+2. **Digital repression** is not new — but digital tools have expanded its *scale*, *speed*, and *forms*. The Earl et al. typology organises 24 distinct types across two tables.
+
+. . .
+
+3. **Information channeling** is a genuinely new form of repression at scale — it influences behaviour, not just beliefs.
+
+. . .
+
+4. **Public support** for hacktivism is driven by perceptions of utility and distrust in authorities. It is constrained by effective civic participation.
+
+. . .
+
+5. **Repression is not exclusive to autocracies** — democracies engage in almost all forms of digital repression.
+
+## References {.smaller}
+
+- Earl, J., Maher, T. V., & Pan, J. (2022). The digital repression of social movements, protest, and activism: A synthetic review. *Science Advances*, 8(10), eabl8198.
+
+- Gawel, H. (2024). Hacktivism. *Internet Policy Review*, 13(2).
+
+- George, J. J., & Leidner, D. E. (2019). From clicktivism to hacktivism: Understanding digital activism. *Information and Organization*, 29(3), 100249.
+
+- Ireland, L. (2024). We are all (not) Anonymous: Individual- and country-level correlates of support for and opposition to hacktivism. *New Media & Society*, 26(8), 4429–4453.
+
+---
+
+::: {style="text-align: center; font-size: 1.5em; margin-top: 2em;"}
+**Thank you!**
+
+Questions?
+:::
