@@ -20,6 +20,8 @@ format:
     scrollable: false
     pdf-max-pages-per-slide: 1
     history: false # don't add each slide to browser history
+bibliography: pres_bib.bib
+csl: apa-old-doi-prefix.csl
 execute:
   echo: true
 ---
@@ -115,7 +117,7 @@ I would like to acknowledge the Traditional Owners of Australia and recognise th
 :::
 :::
 
-# Part 1 — Defining Hacktivism {background-color="#2c3e50"}
+# Part 1 — Defining Hacktivism
 
 ## What is hacktivism?
 
@@ -151,8 +153,6 @@ The term is a **portmanteau** of *"hacking"* and *"activism"* — coined by the 
 ::: {.column width="60%"}
 
 **4chan.org (est. 2003)** — Anonymous posting of any content, including controversial material. This created a gathering place for hackers with shared political views.
-
-. . .
 
 **Anonymous** emerged from this space:
 
@@ -211,8 +211,6 @@ Huschle (2002) argues hacktivism often **underperforms** as civil disobedience b
 - Denning (2001): Cyber-terrorism = politically motivated hacking intended to cause **serious damage** (loss of life, economic harm).
 - Many security experts describe hacktivism as a "moderate form of cyberterrorism" because the **methods** overlap, even though **motivations, scale, and outcomes** differ significantly.
 
-. . .
-
 The **framing** matters enormously — governments often treat hacktivism as a form of digital terrorism (Gawel, 2024).
 
 :::
@@ -253,7 +251,7 @@ We will discuss the results together.
 
 :::
 
-# Part 2 — Digital Repression {background-color="#2c3e50"}
+# Part 2 — Digital Repression
 
 ## What is digital repression? (Earl et al., 2022)
 
@@ -267,7 +265,7 @@ This is a **capacious concept** that includes:
 2. The use of **digital tools** in performing traditional repression (e.g., digital surveillance)
 3. The development and deployment of **information strategies** designed to diminish protest (e.g., China's 50-Cent Army)
 
-## The original Earl (2003) typology
+## The original Earl [-@earl2003] typology
 
 Three critical dimensions:
 
@@ -281,7 +279,20 @@ Three critical dimensions:
 
 3. **Mechanism**: Coercion (force, violence, arrests) vs. channeling (incentives for preferred behaviour, overbroad rules)
 
-. . .
+## Coercion vs Channeling
+
+- **Coercion**: "controlling information by limiting access or content"
+
+Coercion raises the costs of activism through force, punishment, or the threat of it. The logic is deterrence: make activism painful enough that people stop. For example, Saudi Arabia imprisoning political bloggers, or US local police using StingRay devices to intercept protesters' cellphone traffic. The repressor is directly targeting activists and imposing consequences on them.
+
+- **Channeling**: "influencing production and consumption of information"
+
+Channeling steers activists toward less threatening forms of expression through incentives or broad rules — without direct force.
+
+- White House petitioning platforms: appear to invite input but constrain contestation into a government-controlled format.
+- China's social credit system: broadly rewards "prosocial" behaviour and penalises what the regime labels antisocial — making protest costlier relative to compliance, without directly targeting dissent.
+
+. . . 
 
 Crossing these three dimensions → **12 types of repression** → Now applied to the digital context.
 
@@ -325,7 +336,7 @@ Each cell represents a distinct type of digital repression with different causal
 . . .
 
 ::: {.callout-important}
-**Key theme**: Repression has never been the exclusive domain of autocrats. Democracies engage in digital repression too (Earl et al., 2022).
+**Key theme**: Repression has never been the exclusive domain of autocrats. Democracies engage in digital repression too [@earlDigitalRepressionSocial].
 :::
 
 ## Covert coercion: Digital surveillance
@@ -340,9 +351,11 @@ Each cell represents a distinct type of digital repression with different causal
 
 - Western democracies (US, UK) have substantial surveillance capacities too — including covert access to telecom networks (Snowden leaks).
 
+[Video: The NSA and surveillance](https://youtu.be/GoM4jIZbTtQ?si=0JbmdeWrD4SO5hSO)
+
 . . .
 
-- **Surveillance capitalism**: Private corporations harvest, join, analyse, and sell private data — this can be used to track activists and movements.
+- **Surveillance capitalism** [@zuboffAgeSurveillanceCapitalism2018]: Private corporations harvest, join, analyse, and sell private data — this can be used to track activists and movements.
 
 . . .
 
@@ -686,15 +699,7 @@ The three readings form a cycle: hacktivism emerges where civic channels fail �
 
 5. **Repression is not exclusive to autocracies** — democracies engage in almost all forms of digital repression.
 
-## References {.smaller}
-
-- Earl, J., Maher, T. V., & Pan, J. (2022). The digital repression of social movements, protest, and activism: A synthetic review. *Science Advances*, 8(10), eabl8198.
-
-- Gawel, H. (2024). Hacktivism. *Internet Policy Review*, 13(2).
-
-- George, J. J., & Leidner, D. E. (2019). From clicktivism to hacktivism: Understanding digital activism. *Information and Organization*, 29(3), 100249.
-
-- Ireland, L. (2024). We are all (not) Anonymous: Individual- and country-level correlates of support for and opposition to hacktivism. *New Media & Society*, 26(8), 4429–4453.
+## References 
 
 ---
 
