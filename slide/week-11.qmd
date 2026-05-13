@@ -442,20 +442,13 @@ Assange's case demonstrates the extreme complexity that can arise when multiple 
 This approach balances the need for accountability with respect for sovereignty and human rights. The key is building capacity in the jurisdiction where perpetrators are located rather than expansive extraterritorial claims.
 :::
 
-## In-Class Activity: Jurisdiction Scenario
+## 🟢 In-class activity 1 — Mentimeter
 
-**Scenario:** A hacker in Country A uses servers in Country B to launch ransomware attacks against hospitals in Country C.
+- [Participate here menti.com/alm3qcmqjgp5](https://www.menti.com/alm3qcmqjgp5)
 
-**Discussion questions:**
+![](images/menti_qr_code_wk10.png){fig-align="center" width=35%}
+[Open presentation's results](https://www.mentimeter.com/app/presentation/al7ju1rvfqc5gd3aqetw5fc54hwoy5dc/present?question=6ehm4zrgcmqn)
 
-1. Which country should have jurisdiction to prosecute?
-2. What if all three countries want to prosecute?
-3. How should conflicting claims be resolved?
-4. What role should international cooperation play?
-
-::: fragment
-Share your thoughts on Padlet: [link to be provided]
-:::
 
 # Part 3: International Norms and Law for Offensive Cyber Operations
 
@@ -723,22 +716,12 @@ The attribution problem is perhaps the most fundamental challenge to establishin
 This pessimistic prediction reflects the reality that powerful states with advanced cyber capabilities have strong incentives to resist constraining norms that would limit their operational flexibility.
 :::
 
-## In-Class Activity: Cyber Norms Poll
+## 🟢 In-class activity 2 — Mentimeter
 
-**Mentimeter questions:**
+- [Participate here menti.com/alm3qcmqjgp5](https://www.menti.com/alm3qcmqjgp5)
 
-1. Do you think international norms can effectively constrain state cyber operations?
-   - Yes, norms matter even without enforcement
-   - No, states will do what serves their interests
-   - Unsure
-
-2. What is the biggest obstacle to effective cyber norms?
-   - Attribution challenges
-   - Conflicting state interests
-   - Rapid technological change
-   - Verification difficulties
-
-Vote at: [Mentimeter link to be provided]
+![](images/menti_qr_code_wk10.png){fig-align="center" width=35%}
+[Open presentation's results](https://www.mentimeter.com/app/presentation/al7ju1rvfqc5gd3aqetw5fc54hwoy5dc/present?question=6ehm4zrgcmqn)
 
 # Wrap-up
 
