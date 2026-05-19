@@ -1,14 +1,12 @@
 ---
 title: "CISS6022: Cybersecurity"
-subtitle: "Week 12</br>Cyber governance"
+subtitle: "Week 12</br>Election Interference, Misinformation & Disinformation"
 author: ""
 institute: "The University of Sydney"
-date: "2026-02-23"
+date: "2026-05-26"
 date-format: long
 format:
   revealjs:
-     # can set self-contained to false if not uploading to Canvas
-     # true makes the HTML files pretty big
     self-contained: true
     fig-format: retina
     toc: true
@@ -19,37 +17,1253 @@ format:
     slide-number: c
     scrollable: false
     pdf-max-pages-per-slide: 1
-    history: false # don't add each slide to browser history
+    history: false
+bibliography: pres_bib.bib
+csl: apa-old-doi-prefix.csl
 execute:
   echo: true
 ---
 
-# First section
+## Acknowledgement of Country
 
-## Slide title
+We acknowledge the Traditional Owners of the lands on which we meet today. We pay our respects to the Elders past and present, and extend that respect to all Aboriginal and Torres Strait Islander peoples.
+
+## Today's plan
+
+* **Part 1:** Election Interference - Historical Context and Modern Threats
+* **Part 2:** Understanding Misinformation and Its Democratic Threat
+* **Part 3:** A Typology Framework for False Information
+* **Part 4:** Combating Mis/Disinformation in Practice
+
+# Part 1: Election Interference {background-color="#0148A4"}
+
+## A Historical Precedent: 1940
+
+**Election interference is not new**
+
+In June 1940, British intelligence operatives:
+
+* Fabricated a poll by "Market Analysts, Inc." (never existed)
+* Claimed 3/5 of Republican delegates supported Britain against Nazis
+* Helped Wendell Willkie secure the nomination
+* Spread false accusations against isolationist Congress members
+* Timed revelations strategically before fall elections
 
 ::: callout-note
-### Note title
-
-Note text
+### Impact
+British spymasters believed their efforts "vastly increased" US support for European allies before Pearl Harbor
 :::
 
 ::: notes
-Speaker notes go here. Press `s` to see.
+This operation foreshadows modern election interference - particularly the 2016 Russian operation. Shows that information manipulation in elections has deep historical roots.
 :::
 
-::: footer
-Footers for comments, or links to further resources. These don't show up when printing the slides to pdf!
+## Cold War Election Interference
+
+**A persistent global phenomenon:**
+
+* US and Soviet Union interfered in **over 100 elections** combined during Cold War
+* Autocrats have long manipulated domestic elections
+* 2014: Russia wiped Ukrainian election computers, tried to spread false results
+
+::: fragment
+**Key pattern:** Foreign states have consistently sought to shape electoral outcomes through information operations
 :::
 
-## Slide with content
+::: notes
+Important to understand this isn't just about Russia or the US - election interference is a tool used by many states throughout modern history.
+:::
 
--   Content item 1
--   Content item 2
--   Content item 3
+## The 2016 Russian Operation: Overview
 
-# Second section
+**A watershed moment in cyber-enabled election interference**
 
-## Another slide
+Three interconnected campaigns:
 
-Content goes here.
+1. **Hacking operations** - Penetration of DNC, DCCC, Clinton campaign
+2. **Information weaponization** - Strategic leaks through DCLeaks, WikiLeaks
+3. **Amplification campaign** - Social media manipulation, fake accounts, targeted ads
+
+::: callout-important
+### Key Innovation
+Combined traditional espionage with modern information warfare and social media manipulation
+:::
+
+::: notes
+This operation expanded "the art of the possible" - showed how cyber operations, influence campaigns, and social media could be integrated into sophisticated election interference.
+:::
+
+## 🟢 Activity 1: Your Experience with Election Information
+
+**Let's start with your perspectives!**
+
+Think about election-related information you've encountered online:
+
+* How confident are you in identifying false election information?
+* What sources do you trust for election news?
+* Have you ever shared election-related content you later learned was false?
+
+**Join at: menti.com code [INSERT YOUR CODE]**
+
+::: notes
+This activity helps students reflect on their own experiences and sets up the discussion of how sophisticated modern influence operations can be.
+:::
+
+## The Hacking Phase: DNC Penetration
+
+**September 2015 - FSB gains access**
+
+* FBI called DNC main phone line to warn of compromise
+* Warning transferred to IT help desk
+* DNC found nothing with limited tools
+* **FBI did not follow up** with senior officials or in-person visit
+* Hackers remained for months
+
+::: fragment
+**March 2016 - GRU joins the operation**
+
+* Second Russian intelligence agency targets Democrats
+* More aggressive approach than FSB
+:::
+
+::: notes
+The delayed response and lack of escalation by both DNC and FBI allowed Russians extensive time to extract information. Shows importance of taking security warnings seriously.
+:::
+
+## The Podesta Hack
+
+**March 21, 2016 - A catastrophic typo**
+
+Spear-phishing email: "Someone just used your password to try to sign into your Google account... You should change your password immediately."
+
+* Podesta forwarded to IT staff
+* IT aide said warning was "genuine" (claimed later it was a typo - meant "NOT real")
+* Podesta surrendered password
+* **50,000+ emails** copied by GRU
+
+::: callout-warning
+### Human Error
+Even sophisticated campaigns vulnerable to simple social engineering attacks
+:::
+
+::: notes
+This demonstrates that even high-level political operatives can fall victim to phishing. The typo claim highlights how small mistakes can have enormous consequences.
+:::
+
+## Scale of the Hacking Operation
+
+**March-April 2016 spear-phishing campaign:**
+
+* **214 individualized emails** sent to 109 Clinton campaign members
+* Top policy advisor Jake Sullivan targeted **14 times**
+* Hillary Clinton's personal email targeted twice
+* **36 staffers clicked** malicious links
+* Subset surrendered credentials
+
+::: fragment
+**Broader scope:**
+
+* 9,000 malicious links sent
+* 4,000+ accounts targeted
+* Extended beyond election to other intelligence gathering
+:::
+
+## Going Public: DCLeaks and Guccifer 2.0
+
+**June 2016 - Strategy shifts from espionage to influence**
+
+**DCLeaks.com** (launched early June):
+
+* Claimed to be "American hacktivists"
+* Published files from Democratic officials, NATO commander, others
+* Initially attracted little attention
+
+**Guccifer 2.0** (appeared June 16):
+
+* Claimed to be lone Romanian hacker
+* Released 11 DNC files immediately
+* Contradicted CrowdStrike's attribution to Russia
+* Multiple indicators revealed Russian origin
+
+::: notes
+The shift to public dissemination distinguished this from traditional espionage. Russia wasn't just gathering intelligence - they were weaponizing it.
+:::
+
+## WikiLeaks Enters the Picture
+
+**Timeline of coordination:**
+
+* **June 12:** Assange promises damaging Democratic emails
+* **June 14:** First known GRU-WikiLeaks contact
+* **July 6:** WikiLeaks requests information related to Clinton campaign
+* **July 14:** GRU sends "big archive" to WikiLeaks
+* **July 22:** WikiLeaks publishes 20,000 DNC emails - 3 days before Democratic convention
+
+::: callout-important
+### Immediate Impact
+DNC Chair Debbie Wasserman Schultz resigned one day before convention
+:::
+
+::: notes
+Timing was strategic - release just before convention maximized disruption and division within Democratic Party.
+:::
+
+## The Amplification Campaign: Internet Research Agency
+
+**2014-2016: Long-term influence operation**
+
+**Preparation phase (2014-2015):**
+
+* Studied US social media usage patterns
+* Made trips to US under false pretenses
+* Targeted "purple states" (swing states)
+* Created hundreds of fake accounts with detailed personas
+* Rented US servers to hide Russian origin
+
+::: fragment
+**Scale of operation:**
+
+* Hundreds of fake social media accounts
+* Elaborate personas (time zones, interests, political views)
+* Quantitative feedback systems to optimize performance
+:::
+
+::: notes
+This wasn't spontaneous - it was a carefully planned, data-driven operation that ran for years before the election.
+:::
+
+## Social Media Manipulation Tactics
+
+**Creating divisive content:**
+
+* **Fake Facebook groups:** "Secured Borders," "Blacktivist," "United Muslims of America," "Army of Jesus," "Heart of Texas"
+* Some groups gained **hundreds of thousands** of members
+* Mixed fake Russian accounts with real Americans
+
+::: fragment
+**2016 directive to operatives:**
+
+> "Use any opportunity to criticize Hillary and the rest (except Sanders and Trump—we support them)"
+:::
+
+::: callout-note
+### Real-World Impact
+Russians organized protests and counter-protests at same location, bringing Americans face-to-face to "scream at one another"
+:::
+
+## Paid Advertising Campaign
+
+**2015-2016: Illegal foreign spending**
+
+* Thousands of dollars spent monthly on Facebook and Twitter
+* **3,500+ ads on Facebook** alone
+* Stole US citizens' identities to open financial accounts
+* Used Facebook's micro-targeting algorithms
+* Ads focused on swing states
+
+**Themes:**
+
+* Clinton supporting terrorism
+* Clinton hostile to Christianity
+* Voter suppression targeting minorities
+* Trump as strong leader
+
+::: notes
+Facebook's own analysis suggested their platform advertising could swing elections - if that's true for legitimate ads, foreign ads would have similar effects.
+:::
+
+## Trump Campaign Connections
+
+**Evidence of awareness and promotion:**
+
+* Roger Stone had advance knowledge of leaks
+* Passed information to Trump campaign
+* Trump referenced WikiLeaks **137 times** in final month
+* Campaign promoted Russian-organized rallies on Facebook
+
+::: fragment
+**October 7, 2016 - Three major events:**
+
+1. Access Hollywood tape released (Trump's crude comments)
+2. DHS/DNI statement blaming Russia (buried by other news)
+3. WikiLeaks began publishing Podesta emails (one hour after statement)
+:::
+
+::: notes
+Mueller investigation found "multiple links" but "did not find that the Trump campaign... conspired or coordinated with the Russian government."
+:::
+
+## US Government Response: Too Little, Too Late?
+
+**Challenges in responding:**
+
+* White House feared escalation to "full-scale cyber conflict"
+* Worried about vote manipulation on Election Day
+* Attempted bipartisan congressional statement failed (Mitch McConnell skeptical)
+* October 7 statement drowned out by other news
+
+::: callout-warning
+### Deterrence Failure
+Despite capability to respond, US "stood down" due to escalation concerns
+:::
+
+::: fragment
+**Question for discussion:** How should democracies balance response to interference with escalation risks?
+:::
+
+# Part 2: Misinformation as a Democratic Threat {background-color="#0148A4"}
+
+## Why Misinformation Matters for Democracy
+
+**Democracy relies on:**
+
+* Evidence-based discourse
+* Informed citizens
+* Authentic deliberation
+* Transparent decision-making
+
+::: fragment
+**Misinformation undermines each of these foundations:**
+
+* Boosts polarization
+* Erodes trust in electoral processes
+* Creates alternative realities
+* Prevents informed decision-making
+:::
+
+::: notes
+Reading from Ecker et al. emphasizes that misinformation isn't just annoying - it's an existential threat to democratic functioning.
+:::
+
+## 2024: A Global Election Year
+
+**Approximately 4 billion people** have the opportunity to vote in major elections this year
+
+**Key concerns:**
+
+* AI-generated deepfakes
+* Sophisticated propaganda campaigns
+* False claims about candidates
+* Attacks on electoral processes
+* Foreign interference
+
+::: callout-important
+### Spain Example (July 2023)
+Foreign actors created fake Regional Government website claiming terrorists planned to attack polling stations
+:::
+
+## The Complexity of "Truth"
+
+**Not all misinformation is created equal:**
+
+::: incremental
+* Some information is **clearly false** and harmful
+* Other content's validity is **less clear-cut**
+* Truth can be **difficult to pin down**
+* Sometimes **impossible to prove** definitively
+:::
+
+::: fragment
+**However:** Many historical and scientific facts are **established beyond reasonable doubt**
+
+* The Holocaust happened
+* COVID-19 vaccines saved millions of lives
+* No widespread fraud in 2020 US presidential election
+:::
+
+::: notes
+This addresses critics who claim truth is too subjective to police. While some things are ambiguous, many facts are incontrovertible.
+:::
+
+## The Real-World Impact of False Beliefs
+
+**Evidence matters:**
+
+* July 2023 survey: Almost **40% of US public** (70% of Republicans) denied legitimacy of 2020 election
+* Real-world consequences: Hate campaigns targeting poll workers and families
+* Trust in democratic institutions eroded
+
+::: callout-warning
+### Democratic Harm
+False beliefs about elections lead to real attacks on democratic infrastructure and personnel
+:::
+
+::: fragment
+**Acquiescence in the face of misinformation is a morally troubling choice**
+:::
+
+## 🟢 Activity 2: Misinformation Scenarios
+
+**Interactive Exercise: What Would You Do?**
+
+I'll present several scenarios involving potential misinformation. For each, indicate:
+
+1. How confident are you that it's false?
+2. Should it be fact-checked?
+3. Should platforms take action?
+4. Is legal intervention appropriate?
+
+**Join at: menti.com code [INSERT YOUR CODE]**
+
+::: notes
+This activity helps students grapple with the complexity of content moderation decisions and understand why simple solutions don't work.
+:::
+
+## How Misinformation Works
+
+**Psychological mechanisms:**
+
+1. **Repetition effect:** False claims believed more when repeated
+2. **Motivated reasoning:** People cling to information supporting their views
+3. **Illusory truth:** Familiarity mistaken for accuracy
+4. **Confirmation bias:** Seeking information confirming existing beliefs
+
+::: fragment
+**Why corrections often fail:**
+
+* Only **partially effective** even without motivation to believe
+* Can backfire when threatening identity
+* Require active cognitive effort to accept
+:::
+
+## The Toolbox Against Misinformation
+
+**Reactive approaches:**
+
+* **Debunking** - Correcting specific false claims after spread
+* **Fact-checking** - Professional verification services
+* Requires falsifiable claims with clear ground truth
+
+**Proactive approaches:**
+
+* **Prebunking** - Forewarning about false narratives before they spread
+* **Psychological inoculation** - Teaching critical thinking skills
+* **Media literacy education** - Long-term cognitive defenses
+
+::: notes
+Different situations require different tools. No one-size-fits-all solution to misinformation.
+:::
+
+## Prebunking in Action: Ukraine Example
+
+**February 2022 - Biden Administration strategy:**
+
+* **Publicly warned** that Putin would claim Ukrainian aggression in Donbas
+* Explained how this would be used to justify invasion
+* Released intelligence assessments preemptively
+
+::: fragment
+**Result:** When Putin made these exact claims, international community was less susceptible to believing them
+:::
+
+::: callout-note
+### Fact-Based Prebunking
+Works when specific false claims can be anticipated
+:::
+
+## Logic-Based Inoculation
+
+**Teaching techniques rather than facts:**
+
+* Focus on **misleading argumentation patterns**
+* Identify **logical flaws** (false dilemmas, incoherence)
+* Recognize **manipulation techniques** (fearmongering, conspiracy thinking)
+
+::: fragment
+**Advantages:**
+
+* Works even when specific claims unknown
+* Scalable across topics
+* Builds long-term resilience
+:::
+
+::: callout-tip
+### Evidence
+Large-scale field experiments on YouTube showed brief inoculation videos improved ability to identify low-quality information
+:::
+
+## Other Countermeasures
+
+**Platform-level interventions:**
+
+* **Accuracy prompts** - Focusing users' attention on veracity
+* **Friction elements** - Brief delays before sharing
+* **Social norms** - Promoting evidence-based discourse
+
+**Educational approaches:**
+
+* Information verification techniques
+* Source evaluation skills
+* Understanding how algorithms work
+
+::: notes
+These are all compatible with democratic principles - they empower rather than restrict.
+:::
+
+## The Criticism of Misinformation Research
+
+**Some critics argue:**
+
+* Researchers are "unelected arbiters of truth"
+* Threat has been "overblown" (moral panic)
+* Truth is too difficult to determine
+* Countermeasures violate democratic principles
+
+::: fragment
+**Response from researchers:**
+
+* Not telling people what to think - **providing evidence-based information**
+* Protecting citizens from **manipulation**
+* **Empowering** informed judgment
+* **Defending democracy**, not attacking it
+:::
+
+::: notes
+Ecker et al. forcefully push back against these criticisms, arguing that fighting misinformation is essential for democracy.
+:::
+
+## The Cost of Inaction
+
+**What happens without intervention:**
+
+* Increased polarization
+* Erosion of shared reality
+* Weakened trust in institutions
+* Undermined electoral integrity
+* Flourishing of manipulation
+
+::: callout-important
+### Core Argument
+Combating misinformation is not antidemocratic - **allowing manipulation to thrive** is antidemocratic
+:::
+
+::: fragment
+**The stakes:** Democracy relies on authentic deliberation based on shared facts
+:::
+
+# Part 3: A Typology of False Information {background-color="#0148A4"}
+
+## Why We Need a Better Framework
+
+**Current challenges:**
+
+* Abundant definitions and taxonomies
+* Little agreement on terminology
+* Limited practical applicability
+* Confusion between format, intent, and content
+
+::: fragment
+**Tsang's proposal:** Classify false information based on **how evidence is used**, not publisher intent or format
+:::
+
+::: notes
+Part 3 draws on Tsang's framework for categorizing false information in ways useful for detection and policy.
+:::
+
+## What Should NOT Define False Information
+
+**Three exclusions in Tsang's framework:**
+
+1. **Format** - Whether it mimics news doesn't affect falseness
+2. **Publisher intent** - Hard to determine, doesn't change facticity
+3. **Opinions** - Not verifiable, beyond scope
+
+::: fragment
+**Focus instead on:** The **relationship between evidence and claims**
+:::
+
+::: callout-note
+### Key Insight
+A piece of information's falseness depends on how evidence is (mis)used, not who published it or why
+:::
+
+## The Four Categories of False Information
+
+**Based on evidence usage:**
+
+1. **Fabrication** - Entirely fictitious evidence, invented events
+2. **Manipulation** - Altering genuine evidence to support false claims
+3. **Misinterpretation** - Genuine evidence interpreted incorrectly or out of context
+4. **Incomplete information** - Genuine evidence presented without crucial context
+
+::: notes
+These categories map onto how fact-checkers actually evaluate claims and what detection systems need to identify.
+:::
+
+## Category 1: Fabrication
+
+**Creating evidence from nothing**
+
+* Invented documents
+* Fabricated quotations
+* Events that never happened
+* Non-existent data
+
+::: fragment
+**Example:** Claim that "99% of rape allegations are fabricated"
+
+* **No study** has ever supported this
+* **No single data source** to draw from
+* Content is **100% false**
+:::
+
+::: callout-important
+### Detection
+Check if cited evidence **exists at all**
+:::
+
+## Category 2: Manipulation
+
+**Altering genuine evidence**
+
+* Edited documents
+* Manipulated visuals
+* Selectively edited quotations
+* Doctored data
+
+::: fragment
+**Example:** CNN approval rating graphic
+
+* **Genuine:** CNN showed Trump at 40%, Obama at 45%
+* **Manipulated:** Shared version showed Trump at 50%
+* Trump **never reached** 50% approval during that period
+:::
+
+::: notes
+Manipulation differs from fabrication - something real existed and was altered rather than invented.
+:::
+
+## Category 3: Misinterpretation
+
+**Misrepresenting genuine evidence**
+
+* Quoting accurately but interpreting incorrectly
+* Applying evidence out of context
+* Drawing wrong conclusions from real data
+
+::: fragment
+**Example:** Pfizer vaccine document claim
+
+* **Claim:** Document warned against unprotected sex for 28 days due to "genetic manipulation" causing birth defects
+* **Reality:** Document recommended pregnancy avoidance during **clinical trial** only, no mention of genetic manipulation or birth defects
+:::
+
+::: notes
+The evidence is real and quoted, but comprehended or contextualized incorrectly.
+:::
+
+## Category 4: Incomplete Information
+
+**Missing crucial context**
+
+* Factually accurate claims
+* Presented in incomplete manner
+* Leads to faulty interpretation
+* Misleading by omission
+
+::: fragment
+**Example:** Iowa missing children claim (Summer 2018)
+
+* **Claim:** "Alarming increase" in vanishing children
+* **Truth:** Numbers were **factually accurate**
+* **Missing context:** 2016-2017 data showed this was **normal seasonal variation**
+* Implication of crisis was false despite accurate statistics
+:::
+
+## The Spectrum of Facticity
+
+**Varying degrees of truth/falsity:**
+
+| Category | Factual Accuracy | Implied Intent |
+|----------|------------------|----------------|
+| Fabrication | **Low** | High |
+| Manipulation | **Low** | High |
+| Misinterpretation | **Medium** | Unknown |
+| Incomplete Info | **High** | Unknown |
+
+::: notes
+This table shows how the framework maps onto practical considerations for response and enforcement.
+:::
+
+## 🟢 Activity 3: Categorize the Misinformation
+
+**Practice Exercise**
+
+I'll present several examples of false information. Your task:
+
+* Identify which category it belongs to
+* Explain your reasoning
+* Suggest appropriate response
+
+**Join at: menti.com code [INSERT YOUR CODE]**
+
+::: notes
+This hands-on activity helps students apply the framework to real scenarios.
+:::
+
+## Implications for Detection
+
+**Different categories require different detection approaches:**
+
+**Fabrication:**
+
+* Check if evidence **exists**
+* Reverse image search
+* Document verification
+* Citation checking
+
+**Manipulation:**
+
+* Check if evidence **matches** originals
+* Forensic analysis of images/videos
+* Comparison with authoritative sources
+
+## Implications for Detection (continued)
+
+**Misinterpretation:**
+
+* **Content comprehension** required
+* Understanding context
+* Evaluating logical connections
+* Expert domain knowledge
+
+**Incomplete Information:**
+
+* **Advanced content comprehension**
+* Historical context
+* Comparative analysis
+* Understanding what's missing
+
+::: notes
+As we move from fabrication to incomplete information, detection becomes progressively more difficult and requires more sophisticated analysis.
+:::
+
+## Implications for Policy and Platforms
+
+**Graduated response based on category:**
+
+**Fabrication & Manipulation:**
+
+* **High confidence** of malicious intent
+* Justifies **stronger interventions**
+* Content removal may be appropriate
+* Account suspension possible
+
+**Misinterpretation & Incomplete:**
+
+* **Intent unclear** - could be honest mistake
+* **Lighter interventions** more appropriate
+* Context labels rather than removal
+* Educational approaches
+
+::: notes
+This framework helps policymakers and platforms make proportional responses rather than one-size-fits-all solutions.
+:::
+
+## Mapping to Fact-Checker Verdicts
+
+**Common fact-checking labels:**
+
+| Framework Category | Typical Fact-Check Labels |
+|-------------------|---------------------------|
+| Fabrication | "False," "Fabricated," "Pants on Fire" |
+| Manipulation | "Altered," "Manipulated" |
+| Misinterpretation | "False Context," "Miscaptioned," "Outdated" |
+| Incomplete Info | "Missing Context," "Needs Context," "Misleading" |
+
+::: callout-tip
+### Practical Value
+Framework aligns with how fact-checkers already work
+:::
+
+## The Role of AI in Detection
+
+**Current capabilities:**
+
+* **Fabrication:** Can check existence of documents, images
+* **Manipulation:** Forensic analysis of media
+* **Misinterpretation:** Requires natural language understanding (emerging)
+* **Incomplete Info:** Requires advanced reasoning (limited)
+
+::: fragment
+**Challenge:** As we move toward incomplete information, **human judgment remains essential**
+:::
+
+# Part 4: Combating Mis/Disinformation {background-color="#0148A4"}
+
+## A Multi-Stakeholder Challenge
+
+**Who has a role?**
+
+::: incremental
+* **Governments** - Policy, regulation, public communication
+* **Platforms** - Content moderation, algorithm design, transparency
+* **Fact-checkers** - Professional verification services
+* **Researchers** - Understanding mechanisms, testing interventions
+* **Educators** - Media literacy, critical thinking
+* **Civil society** - Public awareness, accountability
+* **Individuals** - Critical consumption, responsible sharing
+:::
+
+## Government Responses
+
+**Policy options:**
+
+* **Transparency requirements** for platforms
+* **Digital Services Act** (EU) - Platform accountability
+* **Public prebunking campaigns**
+* **Support for fact-checking infrastructure**
+* **Media literacy funding**
+
+::: callout-warning
+### Balance Required
+Must protect free speech while combating manipulation
+:::
+
+::: fragment
+**Controversy:** Where to draw lines?
+:::
+
+## Platform Responsibilities
+
+**What social media companies can do:**
+
+* **Algorithm transparency** and adjustments
+* **Friction before sharing**  - "Have you read this?"
+* **Accuracy prompts** - Encourage verification
+* **Partnership with fact-checkers**
+* **Context labels** on misleading content
+* **Reduced amplification** of false information
+
+::: notes
+Platforms have enormous power through their algorithms and design choices - even small changes can have large effects.
+:::
+
+## The EU Digital Services Act
+
+**Key provisions:**
+
+* **Risk assessments** for systemic risks from platforms
+* **Transparency** on content moderation decisions
+* **Data access** for researchers
+* **Penalties** for non-compliance
+
+::: fragment
+**Application to disinformation:**
+
+* Platforms must assess and mitigate disinformation risks
+* Particular focus during elections
+* Requires cooperation with fact-checkers
+:::
+
+## The Limits of Content Moderation
+
+**Why it's difficult:**
+
+* **Scale** - Billions of posts daily
+* **Speed** - Misinformation spreads fast
+* **Context-dependency** - Same content can be true/false depending on context
+* **Language and culture** - Global platforms, local contexts
+* **Bad actors adapt** - Arms race dynamic
+
+::: callout-note
+### Reality Check
+No perfect solution exists - all approaches involve tradeoffs
+:::
+
+## Individual Resilience: Lateral Reading
+
+**Technique taught by fact-checkers:**
+
+1. **Open new tabs** when evaluating source
+2. **Search for source's reputation**
+3. **Check what others say** about the source
+4. **Evaluate source before** diving into content
+
+::: fragment
+**Why it works:**
+
+* Leverages collective knowledge
+* Quick and efficient
+* Sidesteps motivated reasoning
+* Professionals use this approach
+:::
+
+::: notes
+Studies show this is more effective than deep reading of suspicious content itself.
+:::
+
+## The Role of Education
+
+**Long-term solution: Media literacy**
+
+* Understanding how information ecosystems work
+* Recognizing manipulation techniques
+* Evaluating sources critically
+* Understanding cognitive biases
+* Responsible sharing practices
+
+::: fragment
+**Challenges:**
+
+* Requires sustained effort
+* Effects take time
+* Uneven access to quality education
+* Misinformation evolves faster than curricula
+:::
+
+## 🟢 Activity 4: Your Action Plan
+
+**Reflection and Commitment**
+
+Based on today's lecture, reflect on:
+
+1. What surprised you most?
+2. What will you do differently going forward?
+3. What role should universities play?
+4. What's the most important action governments should take?
+
+**Join at: menti.com code [INSERT YOUR CODE]**
+
+::: notes
+This final activity helps students consolidate learning and think about practical applications.
+:::
+
+## Case Study: Response to COVID-19 Misinformation
+
+**Multi-pronged approach:**
+
+* **Public health authorities:** Regular, transparent communication
+* **Fact-checkers:** Dedicated COVID-19 verification
+* **Platforms:** Authoritative source panels, reduced amplification
+* **Researchers:** Real-time tracking of misinformation themes
+
+::: fragment
+**Mixed results:**
+
+* Some success in amplifying accurate information
+* But: Significant misinformation persisted
+* Politicization undermined efforts
+* Erosion of trust in institutions
+:::
+
+## The Polarization Problem
+
+**Vicious cycle:**
+
+1. Misinformation **increases polarization**
+2. Polarization makes people **more susceptible** to misinformation
+3. Harder to agree on **shared facts**
+4. Undermines **collective response** to misinformation
+5. Further **polarization**
+
+::: callout-warning
+### Breaking the Cycle
+Requires addressing both misinformation AND underlying divisions
+:::
+
+## The 2016 Operation as a "Simple Machine: A Wedge"
+
+**Buchanan's metaphor:**
+
+> "Any influence effort is like a type of simple machine: a wedge. It is most effective when it is driven into an already-existing crack, widening it inch by inch."
+
+::: fragment
+**Implications:**
+
+* Effectiveness depends on **vulnerability of target**
+* Pre-existing divisions are **exploited**, not created
+* Both **foreign operations** and **domestic health** matter
+* Building resilience requires **addressing societal fissures**
+:::
+
+## What Made 2016 Effective?
+
+**Factors beyond Russian operation:**
+
+* Deep partisan divisions
+* Economic anxiety and resentment
+* Distrust of institutions and media
+* Social media algorithms amplifying division
+* 24-hour news cycle
+* Close election (77,000 votes in 3 states)
+
+::: fragment
+**Lesson:** Societal resilience is as important as technical defenses
+:::
+
+## The Media's Role in 2016
+
+**How journalism amplified the operation:**
+
+* Extensive coverage of leaked emails with little newsworthy content
+* "Since the emails were already out there... it was The Times's job to 'confirm' and 'contextualize' them"
+* Served as "**de facto instrument of Russian intelligence**" (NYT reporter Amy Chozick, in retrospect)
+
+::: callout-important
+### Ethical Dilemma
+How should journalists handle leaked information from malicious sources?
+:::
+
+## Looking Forward: Ongoing Threats
+
+**The 2016 playbook is now public:**
+
+* Other nations will **emulate** successful tactics
+* Techniques will **improve** with technology (deepfakes, AI)
+* **Domestic actors** can use similar methods
+* Defenses haven't kept pace with threats
+
+::: fragment
+**Reasons for concern:**
+
+* Deeper polarization than 2016
+* More sophisticated technology
+* Weakened guardrails
+* Declining trust in institutions
+:::
+
+## Building Resilience
+
+**Comprehensive approach needed:**
+
+**Technical:**
+
+* Improve detection systems
+* Platform accountability
+* Secure electoral infrastructure
+
+**Social:**
+
+* Address polarization
+* Rebuild institutional trust
+* Strengthen democratic norms
+* Support quality journalism
+
+**Individual:**
+
+* Media literacy
+* Critical thinking
+* Responsible information sharing
+
+## The Academic Debate on Truth
+
+**Current challenge:**
+
+* Scholars increasingly wary of defending facts
+* Postmodern critiques of objective truth
+* Concern about being "arbiters"
+
+::: fragment
+**Ecker et al.'s response:**
+
+* Truth being "difficult" doesn't mean it doesn't exist
+* Many facts are **incontrovertible**
+* Academic caution provides **cover for disinformers**
+* **Defending evidence-based truth** is essential
+:::
+
+::: callout-tip
+### Call to Action
+Academics must not be silenced by voices that attack evidence-informed argumentation
+:::
+
+## The Urgency of 2024
+
+**Why this year matters:**
+
+* ~4 billion people voting globally
+* Tested democracies under strain
+* AI tools widely available
+* Sophisticated influence operations
+* Declining trust in elections
+
+::: fragment
+> "The need to fight back against mistruths has never been more urgent."
+>
+> — Ecker et al. (2024)
+:::
+
+# Synthesis and Takeaways {background-color="#0148A4"}
+
+## Connecting the Three Readings
+
+**Common themes:**
+
+1. **Historical continuity** - Election interference and misinformation are not new, but technology changes the scale
+2. **Systemic vulnerability** - Effectiveness depends on target society's resilience
+3. **Practical frameworks** - Need clear categorizations for effective response
+4. **Urgency of action** - Democratic governance requires evidence-based discourse
+
+::: notes
+The readings complement each other - historical case study, threat assessment, and practical framework for response.
+:::
+
+## Key Lessons from 2016
+
+1. **Integration matters** - Hacking + leaks + social media = powerful combination
+2. **Timing is crucial** - Strategic release of information amplifies impact
+3. **Amplification works** - Russian content reached millions through unwitting Americans
+4. **Attribution is hard** - Despite strong evidence, deniability persists
+5. **Response was inadequate** - Deterrence failed, warnings came too late
+6. **Societal divisions matter** - The "wedge" only works if cracks already exist
+
+## What Makes Information "False"
+
+**Tsang's framework clarifies:**
+
+* Not about **format** (news-like or not)
+* Not about **intent** (can't easily determine)
+* Not about **opinion** (not verifiable)
+
+**But about how evidence relates to claims:**
+
+* Is evidence fabricated?
+* Is genuine evidence manipulated?
+* Is genuine evidence misinterpreted?
+* Is crucial context missing?
+
+## Implications for Democracy
+
+**Why this matters:**
+
+* **Democracy requires** informed citizenry
+* **Elections depend on** legitimate information environment
+* **Trust erodes** when false information flourishes
+* **Polarization increases** with alternative facts
+* **Intervention is necessary** to protect democratic discourse
+
+::: callout-important
+### Core Argument Across Readings
+Combating misinformation is not antidemocratic—allowing manipulation to flourish is antidemocratic
+:::
+
+## What Can Be Done: Summary
+
+**Multi-layered defense:**
+
+| Level | Actions |
+|-------|---------|
+| **Individual** | Media literacy, lateral reading, responsible sharing |
+| **Platform** | Friction, accuracy prompts, algorithm adjustments |
+| **Institutional** | Fact-checking, public communication, prebunking |
+| **Policy** | Regulation, transparency requirements, research funding |
+| **Societal** | Address divisions, rebuild trust, democratic norms |
+
+## Challenges Ahead
+
+**Ongoing concerns:**
+
+* **Technology evolution** - Deepfakes, AI-generated content
+* **Adaptation of actors** - Learning from successes/failures
+* **Scale** - Can't fact-check everything
+* **Polarization** - Makes shared truth harder to establish
+* **Resource constraints** - Fact-checking is labor-intensive
+* **Legal complexity** - Free speech vs. harmful content
+* **International coordination** - Threats cross borders
+
+## Reasons for (Cautious) Optimism
+
+**Progress being made:**
+
+* **Better understanding** of mechanisms
+* **Proven interventions** exist (prebunking, inoculation)
+* **Platform cooperation** increasing
+* **Public awareness** growing
+* **Policy frameworks** emerging (EU DSA)
+* **Research community** expanding
+* **Fact-checking infrastructure** strengthening
+
+::: fragment
+**But:** Complacency is dangerous - threats evolving faster than defenses
+:::
+
+## Your Role as Future Cybersecurity Professionals
+
+**What this means for you:**
+
+* **Technical skills** - Detection, verification, security
+* **Policy knowledge** - Understanding regulatory landscape
+* **Ethical framework** - Balancing security and rights
+* **Communication ability** - Explaining complex issues to public
+* **Critical thinking** - Evaluating information ecosystems
+* **Interdisciplinary perspective** - Social, technical, policy dimensions
+
+::: notes
+Cybersecurity professionals will be on front lines of these challenges - not just technical, but social and political dimensions.
+:::
+
+## 🟢 Final Reflection Activity
+
+**Looking ahead:**
+
+Share your thoughts on:
+
+1. Most important lesson from today
+2. Biggest remaining question
+3. One action you'll take this week
+4. Topic you want to explore further
+
+**Join at: menti.com code [INSERT YOUR CODE]**
+
+## Questions for Further Discussion
+
+::: incremental
+* Should platforms be held legally liable for misinformation spread?
+* Where is the line between content moderation and censorship?
+* Can democracies effectively combat foreign interference without compromising values?
+* What role should government play vs. private sector?
+* How do we rebuild shared epistemic foundations?
+* Is the internet fundamentally incompatible with democratic discourse?
+:::
+
+## Resources for Further Learning
+
+**Organizations:**
+
+* International Fact-Checking Network (IFCN)
+* First Draft News
+* EU DisinfoLab
+* Stanford Internet Observatory
+
+**Tools:**
+
+* MediaWise
+* NewsGuard
+* Lateral reading tutorials
+* Verification handbooks
+
+**Academic journals:**
+
+* *Harvard Kennedy School Misinformation Review*
+* *Journal of Online Trust and Safety*
+
+## Week 12 Wrap-Up
+
+**Today we covered:**
+
+✓ Historical and modern election interference
+✓ The 2016 Russian operation in detail
+✓ Why misinformation threatens democracy
+✓ A practical framework for categorizing false information
+✓ Multi-stakeholder approaches to combating mis/disinformation
+
+::: callout-note
+### Next Week
+Final lecture and course wrap-up
+:::
+
+## References
+
+::: {#refs}
+:::
+
+## Thank You
+
+**Questions?**
+
+Office hours: [Insert your office hours]
+
+Email: [Insert your email]
+
+Course materials: [Insert course website]
