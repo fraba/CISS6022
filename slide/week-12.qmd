@@ -30,10 +30,42 @@ We acknowledge the Traditional Owners of the lands on which we meet today. We pa
 
 ## Today's plan
 
-* **Part 1:** Election Interference - Historical Context and Modern Threats
-* **Part 2:** Understanding Misinformation and Its Democratic Threat
-* **Part 3:** A Typology Framework for False Information
-* **Part 4:** Combating Mis/Disinformation in Practice
+* **Part 1:** Election Interference - Historical Context and Modern Threat [@buchananHackerStateCyber2020]
+* **Part 2:** Understanding Misinformation and Its Democratic Threat [@eckerMisinformationPosesBigger2024a]
+* **Part 3:** A Typology Framework for False Information [@tsangMisinformationDisinformationFake2024]
+* **Part 4:** Combating Mis/Disinformation in Practice [@eckerMisinformationPosesBigger2024a]
+
+# But first, please take 5 min to complete the Unit of Study Survey (USS) for CISS6022
+
+## How to make your USS feedback count {.smaller}
+
+Your Unit of Study Survey (USS) feedback is **confidential**. It’s a way to share what you enjoyed and found most useful in your learning, and to provide constructive feedback. It’s also a way to ‘pay it forward’ for the students coming behind you, so that their **learning experience** in this class is as good, or even better, than your own. 
+
+When you complete your USS survey [student-surveys.sydney.edu.au/students](https://student-surveys.sydney.edu.au/students/), please:
+
+:::: {.columns}
+::: {.column width="50%"}
+
+
+**Be specific**. 
+Which class tasks, assessments or other activities helped you to learn? Why were they helpful? Which one(s) didn’t help you to learn? Why didn’t they work for you? 
+
+**Be constructive**. 
+What practical changes can you suggest to class tasks, assessments or other activities, to help the next class learn better? 
+
+**Be relevant**. 
+Imagine you are the teacher. 
+
+:::
+
+::: {.column width="50%"}
+
+ What sort of feedback would you find most useful to help make your teaching more effective?
+
+<img src = 'https://student-surveys.sydney.edu.au/common/images/student-surveys-QR.png' width = '60%'>
+
+:::
+::::
 
 # Part 1: Election Interference {background-color="#0148A4"}
 
@@ -52,11 +84,13 @@ In June 1940, British intelligence operatives:
 ::: callout-note
 ### Impact
 British spymasters believed their efforts "vastly increased" US support for European allies before Pearl Harbor
+
+This operation foreshadows modern election interference - particularly the 2016 Russian operation. Shows that information manipulation in elections has deep historical roots.
+
 :::
 
-::: notes
-This operation foreshadows modern election interference - particularly the 2016 Russian operation. Shows that information manipulation in elections has deep historical roots.
-:::
+
+
 
 ## Cold War Election Interference
 
@@ -70,7 +104,7 @@ This operation foreshadows modern election interference - particularly the 2016 
 **Key pattern:** Foreign states have consistently sought to shape electoral outcomes through information operations
 :::
 
-::: notes
+::: fragment
 Important to understand this isn't just about Russia or the US - election interference is a tool used by many states throughout modern history.
 :::
 
@@ -87,9 +121,7 @@ Three interconnected campaigns:
 ::: callout-important
 ### Key Innovation
 Combined traditional espionage with modern information warfare and social media manipulation
-:::
 
-::: notes
 This operation expanded "the art of the possible" - showed how cyber operations, influence campaigns, and social media could be integrated into sophisticated election interference.
 :::
 
@@ -97,17 +129,11 @@ This operation expanded "the art of the possible" - showed how cyber operations,
 
 **Let's start with your perspectives!**
 
-Think about election-related information you've encountered online:
+- [Participate here menti.com/al6hw29hp7u5](https://www.menti.com/al6hw29hp7u5)
 
-* How confident are you in identifying false election information?
-* What sources do you trust for election news?
-* Have you ever shared election-related content you later learned was false?
+![](images/menti_qr_code_wk12.png){fig-align="center" width=35%}
 
-**Join at: menti.com code [INSERT YOUR CODE]**
-
-::: notes
-This activity helps students reflect on their own experiences and sets up the discussion of how sophisticated modern influence operations can be.
-:::
+[Open presentation's results](https://www.mentimeter.com/app/presentation/alb9eyhkvvkdcvbm8d5p3gbx646wpg3w/edit?source=share-modal)
 
 ## The Hacking Phase: DNC Penetration
 
@@ -126,9 +152,7 @@ This activity helps students reflect on their own experiences and sets up the di
 * More aggressive approach than FSB
 :::
 
-::: notes
-The delayed response and lack of escalation by both DNC and FBI allowed Russians extensive time to extract information. Shows importance of taking security warnings seriously.
-:::
+The delayed response and lack of escalation by both DNC and FBI allowed Russians extensive time to extract information. This shows importance of taking security warnings seriously.
 
 ## The Podesta Hack
 
@@ -146,9 +170,6 @@ Spear-phishing email: "Someone just used your password to try to sign into your 
 Even sophisticated campaigns vulnerable to simple social engineering attacks
 :::
 
-::: notes
-This demonstrates that even high-level political operatives can fall victim to phishing. The typo claim highlights how small mistakes can have enormous consequences.
-:::
 
 ## Scale of the Hacking Operation
 
@@ -268,9 +289,8 @@ Russians organized protests and counter-protests at same location, bringing Amer
 * Voter suppression targeting minorities
 * Trump as strong leader
 
-::: notes
 Facebook's own analysis suggested their platform advertising could swing elections - if that's true for legitimate ads, foreign ads would have similar effects.
-:::
+
 
 ## Trump Campaign Connections
 
@@ -285,13 +305,14 @@ Facebook's own analysis suggested their platform advertising could swing electio
 **October 7, 2016 - Three major events:**
 
 1. Access Hollywood tape released (Trump's crude comments)
-2. DHS/DNI statement blaming Russia (buried by other news)
+2. Department of Homeland Security and the Office of the Director of National Intelligence statement blaming Russia (buried by other news)
 3. WikiLeaks began publishing Podesta emails (one hour after statement)
 :::
 
-::: notes
-Mueller investigation found "multiple links" but "did not find that the Trump campaign... conspired or coordinated with the Russian government."
+::: fragment
+**Note**: Mueller investigation found "multiple links" but "did not find that the Trump campaign... conspired or coordinated with the Russian government."
 :::
+
 
 ## US Government Response: Too Little, Too Late?
 
@@ -313,9 +334,9 @@ Despite capability to respond, US "stood down" due to escalation concerns
 
 # Part 2: Misinformation as a Democratic Threat {background-color="#0148A4"}
 
-## Why Misinformation Matters for Democracy
+## Why Misinformation Matters for Democracy [@eckerMisinformationPosesBigger2024a]
 
-**Democracy relies on:**
+**Democracy relies on:** 
 
 * Evidence-based discourse
 * Informed citizens
@@ -333,23 +354,6 @@ Despite capability to respond, US "stood down" due to escalation concerns
 
 ::: notes
 Reading from Ecker et al. emphasizes that misinformation isn't just annoying - it's an existential threat to democratic functioning.
-:::
-
-## 2024: A Global Election Year
-
-**Approximately 4 billion people** have the opportunity to vote in major elections this year
-
-**Key concerns:**
-
-* AI-generated deepfakes
-* Sophisticated propaganda campaigns
-* False claims about candidates
-* Attacks on electoral processes
-* Foreign interference
-
-::: callout-important
-### Spain Example (July 2023)
-Foreign actors created fake Regional Government website claiming terrorists planned to attack polling stations
 :::
 
 ## The Complexity of "Truth"
@@ -394,20 +398,19 @@ False beliefs about elections lead to real attacks on democratic infrastructure 
 
 ## 🟢 Activity 2: Misinformation Scenarios
 
-**Interactive Exercise: What Would You Do?**
+### Think you can beat misinformation? Try this comprehensive test of misinformation susceptibility.
 
-I'll present several scenarios involving potential misinformation. For each, indicate:
+[yourmist.streamlit.app](https://yourmist.streamlit.app/) (Take the **MIST-16** test)
 
-1. How confident are you that it's false?
-2. Should it be fact-checked?
-3. Should platforms take action?
-4. Is legal intervention appropriate?
+Let's take  5 minutes to complete it then report your results in Mentimeter
 
-**Join at: menti.com code [INSERT YOUR CODE]**
+- [Participate here menti.com/al6hw29hp7u5](https://www.menti.com/al6hw29hp7u5)
 
-::: notes
-This activity helps students grapple with the complexity of content moderation decisions and understand why simple solutions don't work.
-:::
+![](images/menti_qr_code_wk12.png){fig-align="center" width=25%}
+
+[Open presentation's results](https://www.mentimeter.com/app/presentation/alb9eyhkvvkdcvbm8d5p3gbx646wpg3w/edit?source=share-modal)
+
+
 
 ## How Misinformation Works
 
@@ -522,7 +525,7 @@ These are all compatible with democratic principles - they empower rather than r
 Ecker et al. forcefully push back against these criticisms, arguing that fighting misinformation is essential for democracy.
 :::
 
-## The Cost of Inaction
+## The Cost of Inaction according to Ecker et al. [-@eckerMisinformationPosesBigger2024a]
 
 **What happens without intervention:**
 
@@ -553,11 +556,7 @@ Combating misinformation is not antidemocratic - **allowing manipulation to thri
 * Confusion between format, intent, and content
 
 ::: fragment
-**Tsang's proposal:** Classify false information based on **how evidence is used**, not publisher intent or format
-:::
-
-::: notes
-Part 3 draws on Tsang's framework for categorizing false information in ways useful for detection and policy.
+**Tsang's proposal [-@tsangMisinformationDisinformationFake2024]:** Classify false information based on **how evidence is used**, not publisher intent or format
 :::
 
 ## What Should NOT Define False Information
@@ -621,17 +620,20 @@ Check if cited evidence **exists at all**
 * Selectively edited quotations
 * Doctored data
 
-::: fragment
+
+
+---
+
+![](https://mediaproxy.snopes.com/width/1200/https://media.snopes.com/2018/08/trumpnumbers.jpg){fig-align="center" width=45%}
+
 **Example:** CNN approval rating graphic
 
 * **Genuine:** CNN showed Trump at 40%, Obama at 45%
 * **Manipulated:** Shared version showed Trump at 50%
 * Trump **never reached** 50% approval during that period
-:::
 
-::: notes
 Manipulation differs from fabrication - something real existed and was altered rather than invented.
-:::
+
 
 ## Category 3: Misinterpretation
 
@@ -683,22 +685,6 @@ The evidence is real and quoted, but comprehended or contextualized incorrectly.
 
 ::: notes
 This table shows how the framework maps onto practical considerations for response and enforcement.
-:::
-
-## 🟢 Activity 3: Categorize the Misinformation
-
-**Practice Exercise**
-
-I'll present several examples of false information. Your task:
-
-* Identify which category it belongs to
-* Explain your reasoning
-* Suggest appropriate response
-
-**Join at: menti.com code [INSERT YOUR CODE]**
-
-::: notes
-This hands-on activity helps students apply the framework to real scenarios.
 :::
 
 ## Implications for Detection
@@ -791,7 +777,7 @@ Framework aligns with how fact-checkers already work
 
 # Part 4: Combating Mis/Disinformation {background-color="#0148A4"}
 
-## A Multi-Stakeholder Challenge
+## A Multi-Stakeholder Challenge [@eckerMisinformationPosesBigger2024a]
 
 **Who has a role?**
 
@@ -835,9 +821,7 @@ Must protect free speech while combating manipulation
 * **Context labels** on misleading content
 * **Reduced amplification** of false information
 
-::: notes
 Platforms have enormous power through their algorithms and design choices - even small changes can have large effects.
-:::
 
 ## The EU Digital Services Act
 
@@ -912,22 +896,6 @@ Studies show this is more effective than deep reading of suspicious content itse
 * Misinformation evolves faster than curricula
 :::
 
-## 🟢 Activity 4: Your Action Plan
-
-**Reflection and Commitment**
-
-Based on today's lecture, reflect on:
-
-1. What surprised you most?
-2. What will you do differently going forward?
-3. What role should universities play?
-4. What's the most important action governments should take?
-
-**Join at: menti.com code [INSERT YOUR CODE]**
-
-::: notes
-This final activity helps students consolidate learning and think about practical applications.
-:::
 
 ## Case Study: Response to COVID-19 Misinformation
 
@@ -1023,7 +991,7 @@ How should journalists handle leaked information from malicious sources?
 * Declining trust in institutions
 :::
 
-## Building Resilience
+## Building Resilience {.smaller}
 
 **Comprehensive approach needed:**
 
@@ -1048,7 +1016,7 @@ How should journalists handle leaked information from malicious sources?
 
 ## The Academic Debate on Truth
 
-**Current challenge:**
+**Current challenge according to Ecker et al. [-@eckerMisinformationPosesBigger2024a]:**
 
 * Scholars increasingly wary of defending facts
 * Postmodern critiques of objective truth
@@ -1061,27 +1029,6 @@ How should journalists handle leaked information from malicious sources?
 * Many facts are **incontrovertible**
 * Academic caution provides **cover for disinformers**
 * **Defending evidence-based truth** is essential
-:::
-
-::: callout-tip
-### Call to Action
-Academics must not be silenced by voices that attack evidence-informed argumentation
-:::
-
-## The Urgency of 2024
-
-**Why this year matters:**
-
-* ~4 billion people voting globally
-* Tested democracies under strain
-* AI tools widely available
-* Sophisticated influence operations
-* Declining trust in elections
-
-::: fragment
-> "The need to fight back against mistruths has never been more urgent."
->
-> — Ecker et al. (2024)
 :::
 
 # Synthesis and Takeaways {background-color="#0148A4"}
@@ -1178,7 +1125,7 @@ Combating misinformation is not antidemocratic—allowing manipulation to flouri
 **But:** Complacency is dangerous - threats evolving faster than defenses
 :::
 
-## Your Role as Future Cybersecurity Professionals
+## The Future of Cybersecurity Professionals
 
 **What this means for you:**
 
@@ -1189,7 +1136,6 @@ Combating misinformation is not antidemocratic—allowing manipulation to flouri
 * **Critical thinking** - Evaluating information ecosystems
 * **Interdisciplinary perspective** - Social, technical, policy dimensions
 
-::: notes
 Cybersecurity professionals will be on front lines of these challenges - not just technical, but social and political dimensions.
 :::
 
@@ -1217,41 +1163,6 @@ Share your thoughts on:
 * Is the internet fundamentally incompatible with democratic discourse?
 :::
 
-## Resources for Further Learning
-
-**Organizations:**
-
-* International Fact-Checking Network (IFCN)
-* First Draft News
-* EU DisinfoLab
-* Stanford Internet Observatory
-
-**Tools:**
-
-* MediaWise
-* NewsGuard
-* Lateral reading tutorials
-* Verification handbooks
-
-**Academic journals:**
-
-* *Harvard Kennedy School Misinformation Review*
-* *Journal of Online Trust and Safety*
-
-## Week 12 Wrap-Up
-
-**Today we covered:**
-
-✓ Historical and modern election interference
-✓ The 2016 Russian operation in detail
-✓ Why misinformation threatens democracy
-✓ A practical framework for categorizing false information
-✓ Multi-stakeholder approaches to combating mis/disinformation
-
-::: callout-note
-### Next Week
-Final lecture and course wrap-up
-:::
 
 ## References
 
@@ -1261,9 +1172,3 @@ Final lecture and course wrap-up
 ## Thank You
 
 **Questions?**
-
-Office hours: [Insert your office hours]
-
-Email: [Insert your email]
-
-Course materials: [Insert course website]
