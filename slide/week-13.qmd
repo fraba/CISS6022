@@ -1,14 +1,12 @@
 ---
 title: "CISS6022: Cybersecurity"
-subtitle: "Week 13</br>Misinformation, disinformation and cybersecurity"
+subtitle: "Week 13</br>Governance, Norms & Democracy by Design"
 author: ""
 institute: "The University of Sydney"
-date: "2026-02-23"
+date: "2026-06-02"
 date-format: long
 format:
   revealjs:
-     # can set self-contained to false if not uploading to Canvas
-     # true makes the HTML files pretty big
     self-contained: true
     fig-format: retina
     toc: true
@@ -19,37 +17,1346 @@ format:
     slide-number: c
     scrollable: false
     pdf-max-pages-per-slide: 1
-    history: false # don't add each slide to browser history
+    history: false
+bibliography: pres_bib.bib
+csl: apa-old-doi-prefix.csl
 execute:
   echo: true
 ---
 
-# First section
+## Acknowledgement of Country
 
-## Slide title
+We acknowledge the Traditional Owners of the lands on which we meet today. We pay our respects to the Elders past and present, and extend that respect to all Aboriginal and Torres Strait Islander peoples.
+
+## Today's plan
+
+* **Part 1:** International Cyber Norms - Evolution and Challenges
+* **Part 2:** From Deterrence to Persistent Engagement
+* **Part 3:** Democracy by Design - Computational Diplomacy
+* **Part 4:** Enabling Technologies and the Future
+
+::: footer
+This lecture draws on readings from Dunn Cavelty (2024), Whyte & Mazanec (2023), and Helbing & Pournaras (2023)
+:::
+
+# Part 1: International Cyber-Security Norms {background-color="#0148A4"}
+
+## The Changing Cyber-Security Debate
+
+**From cyber-utopia to geopolitical reality (post-2010)**
+
+:::: {.columns}
+::: {.column width="50%"}
+**1990s-2000s:**
+
+* Laissez-faire politics
+* Focus on technical cooperation
+* "Cyber-utopia" narrative
+* Limited state involvement
+:::
+
+::: {.column width="50%"}
+**Post-2010:**
+
+* States as primary actors
+* Offensive capabilities
+* Geopolitical rivalries
+* National security focus
+:::
+::::
 
 ::: callout-note
-### Note title
+### Paradigm Shift
+Growing importance of national security considerations ended an era of widespread "cyber-utopia" and led to calls for more state-centric forms of cyberspace governance
+:::
 
-Note text
+## What Are International Norms?
+
+**Definition:** Collective expectations regarding the appropriate conduct of actors
+
+**Three stages of norm lifecycle:**
+
+1. **Norm emergence** - Pushed by norm entrepreneurs
+2. **Broad norm acceptance** - Including the "norm cascade"
+3. **Internalization** - Guides actual state actions
+
+::: fragment
+**Key question:** Do cyber-norms genuinely influence state behavior, or are they merely political tools?
 :::
 
 ::: notes
-Speaker notes go here. Press `s` to see.
+Norms can influence state action through two mechanisms: moral appeal and potential costs of noncompliance. However, nonbinding norms create less pressure than international law.
+:::
+
+## UN Group of Governmental Experts (UNGGE)
+
+**Longest-running ad hoc group in UN system on cybersecurity**
+
+| Year | Result | Key Achievement |
+|------|--------|----------------|
+| 2004-2005 | ❌ No consensus | Different languages on essential issues |
+| 2009-2010 | ✅ Consensus | Confidence-building measures |
+| 2012-2013 | ✅ Consensus | **International law applies** |
+| 2014-2015 | ✅ Consensus | **11 voluntary norms** |
+| 2016-2017 | ❌ No consensus | IHL disagreement |
+| 2019-2021 | ✅ Consensus | Framework established |
+
+::: footer
+Permanent Five (China, France, Russia, UK, US) and Germany participated in all UNGGEs
+:::
+
+## Fundamental Differences: Two Visions
+
+:::: {.columns}
+::: {.column width="50%"}
+**Liberal Democracies**
+
+* Label: "Cyber-security"
+* Focus on technical systems
+* Free flow of information
+* Individual liberties
+* Multistakeholder approach
+* Existing international law applies
+:::
+
+::: {.column width="50%"}
+**Autocratic States**
+
+* Label: "Information security"
+* Includes content control
+* State sovereignty priority
+* Regime security
+* Intergovernmental approach
+* Need for new treaties (lex specialis)
+:::
+::::
+
+::: callout-important
+### Core Tension
+Clashing views on the permissible relationship between cyberspace and individual freedom - reflects broader questions of world order
+:::
+
+## The 11 Voluntary Norms (2015)
+
+**Actions states want to encourage:**
+
+1. Interstate cooperation on security
+2. Consider all relevant information
+3. ⚠️ Prevent misuse of ICTs in your territory
+4. Cooperate to stop crime and terrorism
+5. Respect human rights and privacy
+6. ⚠️ Do not damage critical infrastructures
+7. Protect critical infrastructure
+8. Respond to requests for assistance
+9. Ensure supply chain security
+10. Report ICT vulnerabilities
+11. ⚠️ Do no harm to emergency response teams
+
+::: fragment
+**Most influential in practice:** Norm 6 (avoid damage to critical infrastructure)
+:::
+
+## The 2017 Failure: What Went Wrong?
+
+**Primary stumbling block:** International Humanitarian Law (IHL)
+
+:::: {.columns}
+::: {.column width="50%"}
+**Western Position:**
+
+* Existing IHL already applies
+* No new treaties needed
+* Principles: humanity, necessity, proportionality, distinction
+:::
+
+::: {.column width="50%"}
+**China/Russia/Cuba Opposition:**
+
+* Explicit IHL application legitimizes military use
+* Need for cyber-specific treaty
+* Reject Western-dominated law
+:::
+::::
+
+::: fragment
+**Lessons learned:**
+
+* Expectations after 2015 success were too high
+* Diplomatic processes cannot resolve major political tensions
+* Reflects broader power play in international relations
+:::
+
+## Parallel Processes: Challenging Western Dominance
+
+**The Shanghai Cooperation Organisation's "Code of Conduct"**
+
+* First proposed 1998, repeated 2011, 2015
+* Emphasizes "multilateral" (intergovernmental) approach
+* Rejected by liberal democracies as attack on human rights
+
+**Xi Jinping's Four Principles (2017):**
+
+1. Cyber-sovereignty
+2. Shared governance
+3. Shared benefits
+4. Shared responsibilities
+
+::: callout-warning
+### Strategic Implications
+Defensive notion of "cyber-sovereignty" attracts many states beyond China - challenges U.S. dominance in Internet governance
+:::
+
+## China's Long-Term Strategy
+
+**Two-pronged approach:**
+
+1. **Develop technological self-reliance**
+   * Reduce dependence on Western mechanisms
+   * "Decentralized" but controllable internet
+
+2. **Build international consensus**
+   * World Internet Conference (Wuzhen, since 2014)
+   * Strengthen ITU's role in governance
+   * Control standard-setting (e.g., 5G)
+
+::: fragment
+**Guided by strategic question:**
+
+> "Who will shape the rules, norms, and values of the internet?"
+:::
+
+::: notes
+China's techno-politics follows a long-term strategy, not just reacting to events. This includes both capability development and norm-setting activities.
+:::
+
+## Do Norms Actually Matter?
+
+**Optimistic view:** Yes, but not all norms equally
+
+* Norm 6 (critical infrastructure) shows evidence of influencing decisions
+* Experimental research needed to measure impact
+
+**Pessimistic view:** Three explanations for aggressive behavior despite norms:
+
+1. Transitional phase - norms not yet internalized
+2. Diverging interests within governments (foreign ministry vs. intelligence)
+3. Powerful actors ignore voluntary norms (Punishment Problem)
+4. States strategically exploit loopholes
+
+::: callout-note
+### The Gap
+Neither existing norms nor international law addresses peacetime espionage - where most significant cyber-operations fall
+:::
+
+# Part 2: Strategic Evolution - From Deterrence to Persistent Engagement {background-color="#0148A4"}
+
+## Traditional Deterrence Framework
+
+**The "3 Cs" of successful deterrence:**
+
+1. **Capability** - Ability to inflict harm (punishment) or deny success
+2. **Credibility** - Adversary believes you will act
+3. **Communication** - Clear signaling of consequences
+
+::: fragment
+**Origins:** Cold War nuclear deterrence and Mutually Assured Destruction (MAD)
+:::
+
+::: fragment
+**Challenge:** How to adapt this framework to cyberspace?
+:::
+
+::: notes
+Initially developed to stabilize Cold War and reduce likelihood of nuclear war. Also aimed to dissuade adversaries from aggressive actions elsewhere in the world.
+:::
+
+## Why Cyber-Deterrence Is Different
+
+**Scholars' consensus:** Cannot evaluate cyber-deterrence using nuclear criteria
+
+:::: {.columns}
+::: {.column width="50%"}
+**Nuclear Deterrence:**
+
+* Binary outcome (use/don't use)
+* Catastrophic effects
+* Clear attribution
+* Stable deterrence possible
+:::
+
+::: {.column width="50%"}
+**Cyber Deterrence:**
+
+* Scalable effects
+* Reversible actions
+* Attribution challenges
+* Diverse actors/motives
+* Cumulative and continuous
+:::
+::::
+
+::: callout-important
+### Key Insight
+Striving for zero use in cyber-deterrence is both impractical and unnecessary - cyber-effects can be scaled, reversed, and exhibit wide spectrum of impacts
+:::
+
+## Adapted Cyber-Deterrence Concepts
+
+**Evolution of thinking:**
+
+* **Cumulative deterrence** - Continuous nature of cyber engagement
+* **Punctuated cyber-deterrence** - Decisive operations signal red lines
+* **Entanglement** - Interconnection creates mutual vulnerability
+* **Cross-domain deterrence** - Use capabilities of one type to counter threats of another
+* **Layered deterrence** - Whole-of-nation strategy, focuses on defense not offense
+
+::: fragment
+**Additional significance of norms:**
+
+Agreed-upon behavior allows clearer understanding of costs and credible threat of escalation
+:::
+
+## The Shift to "Persistent Engagement"
+
+**U.S. DoD 2018 Cyber Strategy - "Defend Forward"**
+
+> "DoD will disrupt or halt malicious cyber activity at its source, including activity that falls below the level of armed confict"
+
+::: fragment
+**Core philosophy:**
+
+* Cyberspace = domain of constant contact
+* Better to anticipate and neutralize threats
+* Active shaping of threat environment
+* Unlike nuclear: "use of cyber-capabilities is strategically consequential"
+:::
+
+::: fragment
+**Bureaucratic context:** USCYBERCOM establishing itself as brand-new military unified command with offensive mandate
+:::
+
+## Persistent Engagement in Practice
+
+**Strategy aims to:**
+
+* Compete more effectively below armed conflict
+* Influence adversary calculations
+* Deter aggression through action
+* Clarify acceptable vs. unacceptable behavior
+
+::: callout-note
+### The Goal: "Agreed Competition"
+Tacit understanding among key actors about:
+
+* What the "agreed battle" is and is not
+* Legitimate vs. illegitimate moves
+* What's "within the rules" vs. escalatory
+:::
+
+::: notes
+No guarantee this state of agreement will be reached, but informs how USCYBERCOM thinks about strategy since 2018.
+:::
+
+## Criticisms of Persistent Engagement
+
+**Key concerns from scholars:**
+
+1. **Perception of aggression**
+   * U.S. could be seen as acting unilaterally
+   * May provoke countermeasures and retaliation
+
+2. **Resource intensity**
+   * May lack capacity to sustain at necessary scale
+   * "Seamlessly, globally, continuously" unrealistic
+
+3. **Effectiveness questions**
+   * May not actually deter/disrupt activity
+   * Greater restraint might be more effective
+
+4. **Undermining international cooperation**
+   * Violates emerging norms
+   * Discourages cooperation on cybersecurity
+
+::: notes
+Most European military cyber organizations cannot increase operational capacities to navigate "seamlessly, globally, and continuously" as persistent engagement demands.
+:::
+
+## Case Study: Operation Against Russian IRA
+
+**2018 Midterm Elections**
+
+:::: {.columns}
+::: {.column width="60%"}
+**Reported actions by USCYBERCOM:**
+
+* Sent messages to Russian trolls/hackers
+* Used emails, pop-ups, texts, direct messages
+* Blocked internet access to Internet Research Agency
+* Prevented interference with 2018 elections
+:::
+
+::: {.column width="40%"}
+**Note:** Never officially confirmed
+
+**Another operation:** Planting malware in Russian electric utilities (disputed)
+:::
+::::
+
+::: fragment
+**Signaling effect:** Media reports may serve deterrence purpose without actual operation - turning the lights off in Moscow without having to do so
+:::
+
+## Layered Cyber-Deterrence Framework
+
+**Three interconnected pillars:**
+
+1. **Shaping behavior**
+   * Establish norms and expectations
+   * Diplomatic engagement
+   * Build international consensus
+
+2. **Denying benefits**
+   * Make attacks costlier and less effective
+   * Improve defenses
+   * Increase resilience
+
+3. **Imposing costs**
+   * Economic sanctions
+   * Diplomatic consequences
+   * Counter-operations
+
+::: callout-important
+### Whole-of-Nation Approach
+Requires collaboration across public and private sectors, transcending national and organizational boundaries
+:::
+
+# Part 3: Democracy by Design {background-color="#0148A4"}
+
+## Introducing Computational Diplomacy
+
+**Definition:** New interdisciplinary field combining computational thinking with diplomatic/governance challenges
+
+**Focus areas:**
+
+* Digital democracy enhancement
+* Addressing misinformation and polarization
+* Correcting power imbalances
+* Using technology to upgrade (not undermine) democracy
+
+::: callout-note
+### Central Question
+How can digital tools support democracy upgrade while managing risks of manipulation, surveillance, and centralized control?
 :::
 
 ::: footer
-Footers for comments, or links to further resources. These don't show up when printing the slides to pdf!
+Helbing & Pournaras (2023), Journal of Computational Science
 :::
 
-## Slide with content
+## Democracy by Design: Core Principles
 
--   Content item 1
--   Content item 2
--   Content item 3
+**Extending "Privacy by Design" to democratic values**
 
-# Second section
+:::: {.columns}
+::: {.column width="50%"}
+**Values to embed in systems:**
 
-## Another slide
+* Equality and inclusivity
+* Freedom of choice
+* Transparency and accountability
+* Privacy and self-determination
+* Fairness, justice, consensus
+:::
 
-Content goes here.
+::: {.column width="50%"}
+**Values to embed (cont'd):**
+
+* Safety and security
+* Human dignity
+* Sustainability
+* Resilience
+:::
+::::
+
+::: callout-important
+### Critical Insight
+Every algorithm and system design decision has real-world democratic consequences. Need citizen participation in design to prevent erosion of democratic values.
+:::
+
+## The Three Pillars of Opinion Freedom
+
+**UN Declaration Article 19 requirements:**
+
+1. **Access to relevant information**
+   * Undermined by: Limited data access, dis/misinformation
+
+2. **Form opinions without manipulation**
+   * Threatened by: Nudging, bots, filter bubbles, information asymmetries
+
+3. **Voice opinions without fear**
+   * Challenged by: Hate speech, censorship, surveillance
+
+::: fragment
+**Key distinction:**
+
+* **Misinformation:** Unintentional inaccuracy
+* **Disinformation:** Deliberate fabrication
+:::
+
+## Cybersecurity Threats to Opinion Freedom
+
+**Modern information warfare:**
+
+* Bot networks for propaganda
+* Sophisticated fake news generation (AI-enabled)
+* Arms race: detection vs. production algorithms
+* Filter bubbles and attention harvesting
+* Algorithmic amplification/suppression
+
+::: callout-warning
+### Information Asymmetry
+Creates power imbalances fundamentally incompatible with democratic values - knowing more than others provides unfair advantages
+:::
+
+::: notes
+Opinions should not be amplified or suppressed disproportionally by algorithms. This principle is crucial for fair democratic discourse.
+:::
+
+## Combating Misinformation: Four Approaches
+
+| Method | Example | Issues |
+|--------|---------|--------|
+| **Passive** | Ignoring spreaders | Misinformation still spreads |
+| **Reactive** | Debunking after the fact | Backfiring effects, weakened cohesion |
+| **Pre-active** | Prebunking (inoculation theory) | Requires anticipation of threats |
+| **Proactive** | Digital literacy education | Slow, requires long-term commitment |
+
+::: fragment
+**Recommended approach:**
+
+* Digital literacy and "digital enlightenment"
+* Community moderators over AI-based censorship
+* Crowd-sourced content verification (e.g., Wikipedia model)
+* Avoid automated filtering (transparency issues, false positives)
+:::
+
+## Network Topology Matters for Democracy
+
+**Critical insight:** Interaction network structure affects behavioral diversity
+
+:::: {.columns}
+::: {.column width="50%"}
+**Degree-heterogeneous networks**
+
+* Example: Social media with influencers
+* **Effect: Reduces diversity**
+* Power-law distribution
+* Few nodes with many connections
+:::
+
+::: {.column width="50%"}
+**Highly clustered networks**
+
+* Example: Community-based interactions
+* **Effect: Favors diversity**
+* More balanced connections
+* Local cohesion
+:::
+::::
+
+::: fragment
+**Practical action:** Unfollowing extremely popular accounts can promote diversity
+
+**Measure:** Structural Diversity Index assesses network's propensity to sustain diversity
+:::
+
+## Polarization vs. Diversity
+
+**Important distinction:**
+
+:::: {.columns}
+::: {.column width="50%"}
+**Polarization:**
+
+* Division over specific subjects
+* Lacks social cohesion
+* Linked to extreme opinions
+* **Affective polarization:** Dislike between opposing groups
+:::
+
+::: {.column width="50%"}
+**Diversity:**
+
+* Distribution over many areas
+* Compatible with cohesion
+* Healthy democratic discourse
+* Multiple viewpoints coexist
+:::
+::::
+
+::: callout-important
+### Reject Engineering Consent
+Manipulation and "Big Nudging" undermine democracy. Instead: Embrace deliberative procedures using digital tools
+:::
+
+## Case Study: Taiwan's vTaiwan Platform
+
+**Successful digital deliberation using Pol.is system**
+
+**Features:**
+
+* Real-time opinion visualization
+* K-means clustering of similar voters
+* Encourages "bridging comments" across groups
+* Identifies consensus areas
+
+**Results:**
+
+* 80% of topics led to successful government action
+* Demonstrates feasibility of large-scale digital deliberation
+* Reduces polarization while maintaining diversity
+
+::: footer
+Example of computational diplomacy in practice
+:::
+
+## Collective Intelligence: Four-Phase Process
+
+**Requirements for effective Collective Intelligence:**
+
+1. **Independent exploration**
+   * Unmanipulated search for solutions
+   * Diverse perspectives critical
+
+2. **Information exchange**
+   * Share findings without bias
+   * Transparent communication
+
+3. **Integration**
+   * Combine solutions through deliberation
+   * Synthesize diverse inputs
+
+4. **Voting**
+   * Determine best combined solution
+   * Fair aggregation methods
+
+::: callout-note
+### Success Factors
+Equal distribution of conversational turn-taking > individual skill. Symmetrical interactions lead to optimal self-organization.
+:::
+
+## Quadratic Voting: Protecting Minority Interests
+
+**Innovation in voting system design**
+
+**How it works:**
+
+* Voters receive voting "credits"
+* Cost to cast votes = square of votes used
+* Makes it "expensive" to spend all credits on one option
+
+**Example:**
+
+* 1 vote costs 1 credit
+* 2 votes cost 4 credits
+* 3 votes cost 9 credits
+
+::: fragment
+**Benefits:**
+
+* Prevents "tyranny of the majority"
+* Allows expression of preference intensity
+* Encourages diversity of choices
+* Strengthens Collective Intelligence
+:::
+
+## Voting Methods: User Experience Matters
+
+**Research findings on input methods:**
+
+| Method | User-Friendliness | Perceived Effectiveness |
+|--------|------------------|------------------------|
+| **K-approval** | Most user-friendly | Least effective feeling |
+| **Ranking by value** | Moderate | Best for reflecting preferences |
+| **Range voting** | Moderate | Moderate effectiveness |
+
+::: fragment
+**Aggregation choices also matter:**
+
+* Nash product
+* Utilitarian social welfare
+* Other social choice functions
+
+**Key insight:** At least one preference realization → increases future participation
+:::
+
+## Legitimacy, Trust & Transparency
+
+**Multidimensional legitimacy:**
+
+:::: {.columns}
+::: {.column width="50%"}
+**Procedural legitimacy:**
+
+* Fairness of applied procedures
+* Transparent processes
+* Accountable actors
+:::
+
+::: {.column width="50%"}
+**Outcome legitimacy:**
+
+* Favorability of results
+* Meeting expectations
+* Delivering promised benefits
+:::
+::::
+
+::: fragment
+**Trust requirements:**
+
+1. Shared institutional norms
+2. Open source, non-proprietary software
+3. Common problem definition language
+4. Transparency about motivations and incentives
+5. Professional role profiles with proper sanctions
+:::
+
+# Part 4: Enabling Technologies {background-color="#0148A4"}
+
+## Distributed Ledger Technology for Democracy
+
+**Four-Layer Model for Participatory Digital Democracy**
+
+**Layer I: DLT Infrastructure**
+
+* Can be permissioned (centralized, efficient) OR permissionless (democratic, participatory)
+* **Design choice = political choice**
+
+**Layer II: Trusted Computing & Persistent Data**
+
+* Enables smart contracts
+* Facilitates durable storage and trusted computations
+
+::: callout-important
+### Critical Question
+DLT is not inherently democratic - must be designed with democratic values intentionally embedded
+:::
+
+## DLT Layers III & IV: Interactions and Outcomes
+
+**Layer III: Interaction Patterns**
+
+* Voting mechanisms
+* Participatory budgeting
+* ML/AI integration
+* **Self-sovereign identities** (bottom-up, peer-to-peer) vs. centralized e-IDs
+
+::: fragment
+**Important question:** Why track people rather than money/resources?
+:::
+
+**Layer IV: Agent Behavior & Global Outcomes**
+
+* Political participation
+* Resource sharing
+* Sustainable behavior
+* When designed appropriately → digital participatory democracy
+
+## DLT Benefits and Challenges
+
+**Benefits (when designed well):**
+
+* Equal treatment and voting/economic rights
+* Shifts trust from government to infrastructure
+* Supports participatory sustainability
+* Enables co-creation of circular and fair sharing economy
+
+**Critical challenges:**
+
+* Massive configuration space
+* Systems can centralize over time despite decentralized design
+* Governance often neglected for technical considerations
+* Requires value-based engineering methodology
+
+::: notes
+The promise of blockchain for democracy depends entirely on design choices that embed democratic values from the start.
+:::
+
+## Why Digital Assistance Is Needed
+
+**Four compelling reasons:**
+
+1. **Automation required**
+   * Scale/heterogeneity of information overwhelming
+   * Need automated processing
+
+2. **Scaling participation**
+   * Low turnout requires simplified engagement
+   * Reduce barriers to participation
+
+3. **Decision complexity**
+   * Multi-faceted global decisions
+   * Need evidence-based support
+
+4. **Limited cognitive bandwidth**
+   * Citizens can't engage in every decision
+   * Need intelligent filtering and prioritization
+
+## Risks of Centralized Digital Assistance
+
+**Current problems with Big Tech approach:**
+
+* Centralized data management → information asymmetries & power imbalances
+* Privacy violations
+* Censorship and content manipulation
+* Discrimination through algorithmic bias
+* Loss of individual freedoms
+* Manipulation through targeted influence
+
+::: callout-warning
+### The Challenge
+How to get benefits of digital assistance while preserving democratic values and resisting misuse?
+:::
+
+## Design Framework: Human-Machine Hybrid Collective Intelligence
+
+**Three essential elements:**
+
+**1. Individual Autonomy**
+* Self-determined parameters and options
+* Personal data remains local
+* Sharing at aggregate level only
+* Differential privacy & homomorphic encryption
+
+**2. Digital Assistant Coordination**
+* Assistants coordinate peer-to-peer (not through central server)
+* Solve complex optimization cooperatively
+* Decentralized algorithms: federated learning, multi-agent reinforcement learning
+* No single points of failure
+
+**3. Coordinated Feedback**
+* Recommendations based on personal values
+* Individuals can align or reject
+* Creates co-evolutionary learning
+
+## Decentralized AI Methods
+
+**Enabling privacy-preserving coordination:**
+
+* **Collective learning** - Agents learn from peers without central authority
+* **Gossip-based learning** - Information spreads through network organically
+* **Multi-agent reinforcement learning** - Agents optimize jointly
+* **Federated learning** - Model training without sharing raw data
+
+::: fragment
+**Benefits:**
+
+* Enhanced privacy protection
+* No single points of failure
+* Scalable to large populations
+* Preserves individual autonomy
+:::
+
+::: notes
+These methods allow the benefits of AI without the risks of centralized data collection and control.
+:::
+
+## Software Exemplars: Value-Sensitive Design
+
+**Four toolkits supporting democratic upgrades:**
+
+| System | Purpose | Key Values |
+|--------|---------|------------|
+| **Nervousnet** | Open-source data management for smartphones | Privacy, autonomy, trust, legitimacy |
+| **Smart Agora** | Crowd-sensing with blockchain, geolocated voting | Diversity, inclusion, participation, security |
+| **DIAS** | Decentralized real-time data analytics (peer-to-peer) | Inclusion, privacy, autonomy, resilience |
+| **EPOS** | Collective learning for discrete choice optimization | Self-determination, coordination, fairness |
+
+::: footer
+All systems demonstrate that democratic values can be embedded in technical design
+:::
+
+## EPOS: Collective Learning Example
+
+**Economic Planning and Optimized Selections (EPOS)**
+
+**Applications:**
+
+* Energy management
+* EV charging coordination
+* Bike sharing systems
+* Traffic optimization
+* Cloud load-balancing
+
+**How it works:**
+
+* Decentralized multi-agent systems
+* Self-organized tree topologies
+* Balances efficiency, comfort, and fairness
+* No central coordinator required
+
+::: callout-note
+### Bottom-Up Success
+Demonstrates that bottom-up approaches can outperform top-down management while preserving individual autonomy
+:::
+
+## Participatory Urban Planning
+
+**Semantic Urban Elements (SUEs) approach:**
+
+* Represents semantic relationships between urban elements
+* Considers human cognition and perception (not just syntactic data)
+* Citizens as "prosumers" and contributors
+* Supports co-creation and co-evolution
+
+::: fragment
+**Examples of adaptive infrastructure:**
+
+* Adaptive traffic control systems
+* Reversible lanes
+* Curbless streets
+* Context-aware public spaces
+:::
+
+::: fragment
+**Open Source Urbanism:** Co-creating infrastructures for democracy as new "commons"
+:::
+
+## The Required Paradigm Shift
+
+:::: {.columns}
+::: {.column width="50%"}
+**FROM:**
+
+* Surveillance-based
+* Data-driven
+* AI-controlled
+* "Optimize" by targeting people
+* Post-choice, algorithm-decided
+* Top-down governance
+* Technocratic
+:::
+
+::: {.column width="50%"}
+**TO:**
+
+* Measurement-enabled
+* Data-oriented
+* AI-supported
+* Empower people to innovate
+* Co-evolving with human decisions
+* Bottom-up, participatory
+* Value-sensitive design
+:::
+::::
+
+::: callout-important
+### Core Principle
+Technology should amplify human capability and democratic participation, not replace human decision-making
+:::
+
+## Seven Key Takeaways for Cybersecurity
+
+1. **Technical design = political design**
+   * Every architecture choice affects power distribution
+
+2. **Security includes information ecosystem health**
+   * Misinformation is a security threat
+
+3. **Decentralization ≠ Democracy**
+   * Must be designed with democratic values intentionally
+
+4. **Privacy and transparency can coexist**
+   * Through cryptographic techniques and aggregate sharing
+
+5. **Collective Intelligence requires specific conditions**
+   * Not automatic, needs diversity and proper procedures
+
+6. **Network topology matters**
+   * Structure affects behavior, diversity, and resilience
+
+7. **Value-sensitive design is necessary**
+   * Not optional for public sector systems
+
+# Evolution and Revolution in Cyber Conflict {background-color="#0148A4"}
+
+## Evolutionary Technologies: Artificial Intelligence
+
+**AI as evolutionary force in cyber conflict**
+
+**Tactical level impacts:**
+
+* Technique selection automation
+* Tactical adaptation without human input
+* Value calculations for strategic objectives
+* Makes cyber operations more accessible and sophisticated
+
+**Operational level impacts:**
+
+* High-fidelity target comprehension
+* Diversification of available tools
+* Increased probability of compromise via lateral access
+
+::: callout-warning
+### Strategic Uncertainty
+AI systems themselves become high-value targets for Cyber Artificial Intelligence Attacks (CAIA)
+:::
+
+## AI Will "Hack Society"
+
+**Historical precedent: The printing press**
+
+* Subverted "normal" function of social/political/economic systems
+* Produced religious warfare AND economic growth
+* Created regional/national identities
+* Standardized education
+* Enabled labor mobilization
+
+::: fragment
+**AI is already changing society:**
+
+* Shifting psychology of technology users
+* Altering resilience to false information
+* Changing relationship to polity and each other
+* Creating new cognitive patterns
+:::
+
+::: fragment
+> "AI hacks us, we hack each other, we all hack AI"
+:::
+
+## The Human Factor: Getting AI Right
+
+**Three critical issues:**
+
+**1. Specification Problem**
+
+* Difficult to mathematically articulate intention
+* Like a genie - wording of wishes matters
+* More complex tasks = harder specification
+
+**2. Interpretability**
+
+* Need to consistently predict AI outputs
+* Unclear results reduce reliability
+* Critical for national security applications
+
+**3. Explainability**
+
+* Must understand HOW and WHY AI reached conclusions
+* "Black box" problem common
+* Unpredictable variations from expected behavior
+
+## Revolutionary Technologies: Quantum Computing
+
+**Quantum Information Science (QIS) potential impacts**
+
+**Current status:**
+
+* Google: 72-qubit processor (equivalent to 2^72 conventional bits)
+* NSA: Alleged billion-dollar research program
+* Commercially available but applications mostly conceptual
+
+**Quantum properties leveraged:**
+
+* **Entanglement** - Connection between particles
+* **Superposition** - Particles in all observable states simultaneously
+* Multiple qubits can represent exponentially more information
+
+::: callout-important
+### The Encryption Threat
+Quantum computers could factor complex prime numbers, rendering current encryption obsolete
+:::
+
+## The Retroactive Quantum Threat
+
+**"Store now, decrypt later" problem:**
+
+* Low cost of data storage enables mass collection
+* Adversaries vacuuming up encrypted data they can't currently read
+* When quantum computing arrives, archives become instantly accessible
+
+::: fragment
+**Implications:**
+
+* Much of unacknowledged cyber activity may be disclosed
+* Major impact on international norms and expectations
+* National security secrets with long shelf-life at risk
+:::
+
+::: fragment
+**Response:** Migration to "post-quantum" encryption
+
+* Quantum key distribution
+* Post-quantum cryptographic algorithms
+* U.S. NSA already deploying updated cryptographic devices
+:::
+
+## Blockchain & Distributed Ledger Revolution
+
+**Potential to transform Internet's inherent insecurity**
+
+**Benefits for cybersecurity:**
+
+* Decentralized transaction verification
+* No central authority required
+* Cryptographically secured
+* Permanent and visible to participants
+* Could harden Domain Name System (DNS)
+* Enable device-to-device encryption (IoT)
+
+**Challenges:**
+
+* Lack of centralized governance
+* Regulatory framework gaps
+* Lost private keys = permanent data loss
+* Tension between immutability and flexibility
+
+## Alternative Data Storage Technologies
+
+**Addressing future inadequacy of current media**
+
+:::: {.columns}
+::: {.column width="50%"}
+**Current situation:**
+
+* 97 trillion gigabytes stored globally
+* Expected to double by 2025
+* Plastic/magnetic materials degrade
+* Silicon limitations
+:::
+
+::: {.column width="50%"}
+**Alternatives:**
+
+**Synthetic DNA storage:**
+
+* 11+ million million GB per cubic inch
+* Nature's proven efficiency
+* Slow write speeds currently
+
+**Etched glass storage:**
+
+* Quartz glass with precise laser
+* Five unique attributes per mark
+* Very slow write speeds
+:::
+::::
+
+::: notes
+Both technologies still immature but could transform data storage landscape, eliminating some vulnerabilities while creating new ones.
+:::
+
+## Interplay of Evolution and Revolution
+
+**Potential combinations:**
+
+* AI turbo-charged by quantum computing
+* Massive data storage on synthetic DNA
+* DLT securing quantum-resistant systems
+* 5G/6G enabling ubiquitous AI-enhanced IoT
+
+::: fragment
+**What will NOT change:**
+
+> "The digital world of the future will be shaped and molded by human beings and our social and cultural institutions, with digital insecurities very much an uncanny reflection of our geopolitics, our economic systems and behaviors, and those inherent sociopolitical insecurities that define modern human society."
+:::
+
+::: footer
+Whyte & Mazanec (2023)
+:::
+
+# Synthesis and Conclusions {background-color="#0148A4"}
+
+## The Interconnected Challenges
+
+**Three domains converging:**
+
+1. **International governance**
+   * Norm-setting struggles
+   * Geopolitical rivalries
+   * Tension between sovereignty and cooperation
+
+2. **Strategic operations**
+   * Persistent engagement doctrine
+   * Intelligence activities
+   * Below-threshold operations
+
+3. **Democratic foundations**
+   * Technology design choices
+   * Participatory systems
+   * Value-sensitive engineering
+
+::: callout-note
+### Holistic View Required
+Cannot separate technical, political, and social dimensions of cybersecurity
+:::
+
+## Path Dependencies and Lock-In Effects
+
+**Historical lessons:**
+
+* Early design decisions have lasting consequences
+* Path dependency from 1960s-1990s created inherent insecurity
+* Network externalities amplify initial choices
+* Difficult to change once industries built around flawed architectures
+
+::: fragment
+**Current moment is critical:**
+
+* AI systems being designed now
+* Quantum-resistant algorithms being chosen
+* DLT governance structures being established
+* Democratic participation systems being built
+
+**Getting it right now matters for decades to come**
+:::
+
+## The Stakes: Technology and Democracy
+
+**Two possible futures:**
+
+:::: {.columns}
+::: {.column width="50%"}
+**Dystopian path:**
+
+* Surveillance capitalism
+* Algorithmic control
+* Information asymmetries
+* Democratic erosion
+* Centralized power
+:::
+
+::: {.column width="50%"}
+**Democratic path:**
+
+* Value-sensitive design
+* Participatory systems
+* Distributed power
+* Enhanced deliberation
+* Human autonomy preserved
+:::
+::::
+
+::: callout-important
+### Choice Point
+We are at a juncture where design decisions will determine which path we take
+:::
+
+## Recommendations for Practitioners
+
+**For cybersecurity professionals:**
+
+1. **Embrace value-sensitive design** - Security decisions are political decisions
+2. **Consider information ecosystem health** - Not just technical vulnerabilities
+3. **Design for decentralization** - But ensure democratic values embedded
+4. **Prioritize privacy and transparency** - They can coexist
+5. **Enable collective intelligence** - Design systems that preserve diversity
+6. **Participate in norm-setting** - Technical expertise needed in policy discussions
+7. **Think long-term** - Path dependencies matter
+
+::: footer
+Your design choices have democratic consequences
+:::
+
+## Recommendations for Policymakers
+
+**For governance and strategy:**
+
+1. **Move beyond deterrence alone** - Need multifaceted approaches
+2. **Invest in digital literacy** - Foundation of democratic resilience
+3. **Support open-source alternatives** - To proprietary Big Tech platforms
+4. **Require value impact assessments** - For public sector digital systems
+5. **Protect research and deliberation** - Fund experimental approaches
+6. **Engage in international norm-building** - Despite challenges
+7. **Prepare for quantum transition** - Post-quantum cryptography now
+
+::: footer
+Policy choices shape the technological landscape
+:::
+
+## The Role of Universities and Research
+
+**Critical contributions needed:**
+
+* **Experimental research** on norm effectiveness
+* **Design and testing** of participatory platforms
+* **Development** of privacy-preserving AI methods
+* **Education** for digital literacy and enlightenment
+* **Interdisciplinary collaboration** - Technical, social, political
+* **Critical evaluation** of existing systems
+* **Creation** of open-source alternatives
+
+::: callout-note
+### Educational Mission
+Training next generation to understand technology as inherently political and to design with democratic values in mind
+:::
+
+## Looking Ahead: 2026 and Beyond
+
+**Emerging trends to watch:**
+
+* Maturation of post-quantum cryptography
+* Scaling of quantum computing capabilities
+* Evolution of persistent engagement doctrine
+* Development of international AI governance
+* Adoption of participatory digital democracy tools
+* 6G and ubiquitous connectivity implications
+* Climate change impacts on critical infrastructure
+
+::: fragment
+**Constant:** Human decision-making, social institutions, and political choices will determine outcomes
+:::
+
+## Final Thoughts: Democracy, Security, and Technology
+
+**Key insights from this course:**
+
+1. Security and democracy are **interconnected**, not opposing values
+2. Technical choices are **political choices** with real-world consequences
+3. International cooperation faces **fundamental challenges** but remains necessary
+4. **Bottom-up, participatory** approaches can work at scale
+5. **Value-sensitive design** is possible and necessary
+6. The future is **not predetermined** - we shape it through choices today
+
+::: callout-important
+### Your Responsibility
+As cybersecurity professionals, you will make decisions that affect democratic governance. Make them thoughtfully, with awareness of broader implications.
+:::
+
+## Questions and Discussion
+
+**Reflection questions:**
+
+1. How do we balance national security imperatives with international cooperation needs?
+
+2. What role should private companies play in norm-setting and governance?
+
+3. Can we design AI systems that genuinely enhance rather than undermine democracy?
+
+4. How do we prevent path dependencies from locking in flawed designs?
+
+5. What does "persistent engagement" mean for allies and international law?
+
+6. How can citizens meaningfully participate in complex technical governance decisions?
+
+## Thank You
+
+**Next steps:**
+
+* Complete final course reflections
+* Consider how these concepts apply to your career
+* Stay informed about evolving governance discussions
+* Participate in shaping the digital future
+
+::: callout-note
+### Remember
+You are not just defending systems - you are defending the foundations of democratic society.
+:::
+
+**Course feedback:** [student-surveys.sydney.edu.au](https://student-surveys.sydney.edu.au/students/)
+
+## References
+
+::: {#refs}
+:::
