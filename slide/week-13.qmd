@@ -30,10 +30,10 @@ We acknowledge the Traditional Owners of the lands on which we meet today. We pa
 
 ## Today's plan
 
-* **Part 1:** International Cyber Norms - Evolution and Challenges
-* **Part 2:** From Deterrence to Persistent Engagement
-* **Part 3:** Democracy by Design - Computational Diplomacy
-* **Part 4:** Enabling Technologies and the Future
+* **Part 1:** International Cyber Norms - Evolution and Challenges [@dunncaveltyPoliticsCyberSecurity2024, chap. 6]
+* **Part 2:** From Deterrence to Persistent Engagement [@dunncaveltyPoliticsCyberSecurity2024, chap. 6]
+* **Part 3:** Democracy by Design - Computational Diplomacy [@helbingDemocracyDesignPerspectives2023]
+* **Part 4:** Enabling Technologies and the Future [@helbingDemocracyDesignPerspectives2023; @whyteUnderstandingCyberWarfarePolitics2023, chap. 13 and 14]
 
 ::: footer
 This lecture draws on readings from Dunn Cavelty (2024), Whyte & Mazanec (2023), and Helbing & Pournaras (2023)
@@ -236,7 +236,7 @@ China's techno-politics follows a long-term strategy, not just reacting to event
 * Norm 6 (critical infrastructure) shows evidence of influencing decisions
 * Experimental research needed to measure impact
 
-**Pessimistic view:** Three explanations for aggressive behavior despite norms:
+**Pessimistic view:** Four explanations for aggressive behavior despite norms:
 
 1. Transitional phase - norms not yet internalized
 2. Diverging interests within governments (foreign ministry vs. intelligence)
@@ -260,6 +260,10 @@ Neither existing norms nor international law addresses peacetime espionage - whe
 
 ::: fragment
 **Origins:** Cold War nuclear deterrence and Mutually Assured Destruction (MAD)
+
+
+![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExazhpN2lxZDA3a2Q4YXJ3cndodDlzNWYwZDVqdWkxZ3JxOHgyNGhmbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5eM4x8fxZNzPO/giphy.gif){fig-align="center" width="400px"}
+
 :::
 
 ::: fragment
@@ -316,7 +320,22 @@ Striving for zero use in cyber-deterrence is both impractical and unnecessary - 
 Agreed-upon behavior allows clearer understanding of costs and credible threat of escalation
 :::
 
-## The Shift to "Persistent Engagement"
+## Adapted Cyber-Deterrence Concepts (more details) {.smaller}
+
+**Cumulative deterrence** [@torCumulativeDeterrenceNew2017]: Moves away from absolute deterrence to one that is cumulative and continuous. Multiple small actions build up over time to demonstrate resolve.
+
+**Punctuated cyber-deterrence** [@kelloVirtualWeaponInternational2017a]: Uses decisive cyber-operations at key moments to signal that certain actions won't be tolerated. Creates punctuation marks in ongoing low-level conflict.
+
+**Entanglement** [@brantlyEntanglementCyberspaceMinding2020]: The deep interconnection of global digital systems means that attacking others may harm yourself. Creates mutual vulnerability that restrains behavior.
+
+**Cross-domain deterrence** [@gartzkeCrossDomainDeterrenceStrategy2019]: Threaten conventional/economic responses to cyber-attacks, or use cyber capabilities to deter conventional threats. Expands the deterrence toolkit.
+
+**Layered deterrence** (Cyberspace Solarium Commission, 2020): Multiple instruments of power working together. Less focus on offense, more on defense. Linked to long-term strategy and positive national security objectives.
+
+The key insight: cyber-deterrence cannot be "all or nothing" like nuclear. It must account for scalability, reversibility, diverse actors, and the continuous nature of cyber operations.
+
+
+## The Shift to "Persistent Engagement" {.smaller}
 
 **U.S. DoD 2018 Cyber Strategy - "Defend Forward"**
 
@@ -332,6 +351,8 @@ Agreed-upon behavior allows clearer understanding of costs and credible threat o
 :::
 
 ::: fragment
+![](https://upload.wikimedia.org/wikipedia/commons/8/87/Seal_of_the_United_States_Cyber_Command.svg){fig-align="center" width="10%"}
+
 **Bureaucratic context:** USCYBERCOM establishing itself as brand-new military unified command with offensive mandate
 :::
 
@@ -406,9 +427,12 @@ Most European military cyber organizations cannot increase operational capacitie
 **Signaling effect:** Media reports may serve deterrence purpose without actual operation - turning the lights off in Moscow without having to do so
 :::
 
-## Layered Cyber-Deterrence Framework
+## Layered Cyber-Deterrence Framework {.smaller}
 
 **Three interconnected pillars:**
+
+:::: {.columns}
+::: {.column width="50%"}
 
 1. **Shaping behavior**
    * Establish norms and expectations
@@ -419,11 +443,19 @@ Most European military cyber organizations cannot increase operational capacitie
    * Make attacks costlier and less effective
    * Improve defenses
    * Increase resilience
+   
+:::
+
+::: {.column width="50%"}
 
 3. **Imposing costs**
    * Economic sanctions
    * Diplomatic consequences
    * Counter-operations
+   
+:::
+::::
+
 
 ::: callout-important
 ### Whole-of-Nation Approach
@@ -449,8 +481,14 @@ How can digital tools support democracy upgrade while managing risks of manipula
 :::
 
 ::: footer
-Helbing & Pournaras (2023), Journal of Computational Science
+Helbing & Pournaras [-@helbingDemocracyDesignPerspectives2023], Journal of Computational Science
 :::
+
+---
+
+![](https://ars.els-cdn.com/content/image/1-s2.0-S1877750323001217-gr1_lrg.jpg){fig-align="center" width="90%"}
+
+> *Venn diagram depicting the specific topics addressed in this work, highlighting in particular the areas of digital  governance, value-sensitive design, and participatory democracy.* [@helbingDemocracyDesignPerspectives2023]
 
 ## Democracy by Design: Core Principles
 
@@ -482,7 +520,16 @@ Helbing & Pournaras (2023), Journal of Computational Science
 Every algorithm and system design decision has real-world democratic consequences. Need citizen participation in design to prevent erosion of democratic values.
 :::
 
-## The Three Pillars of Opinion Freedom
+## The Three Pillars of Opinion Freedom {.smaller}
+
+:::: {.columns}
+::: {.column width="50%"}
+
+> Everyone has the right to freedom of opinion and expression; this right includes freedom to hold opinions without interference and to seek, receive and impart information and ideas through any media and regardless of frontiers.
+
+:::
+
+::: {.column width="50%"}
 
 **UN Declaration Article 19 requirements:**
 
@@ -494,12 +541,23 @@ Every algorithm and system design decision has real-world democratic consequence
 
 3. **Voice opinions without fear**
    * Challenged by: Hate speech, censorship, surveillance
+   
+:::
+
+::::
+
 
 ::: fragment
 **Key distinction:**
 
 * **Misinformation:** Unintentional inaccuracy
 * **Disinformation:** Deliberate fabrication
+
+* See also concept of "*epistemic rights*" [@nieminenWhyWeNeed2024].
+:::
+
+::: footer
+See [www.un.org/en/about-us/universal-declaration-of-human-rights](https://www.un.org/en/about-us/universal-declaration-of-human-rights)
 :::
 
 ## Cybersecurity Threats to Opinion Freedom
@@ -569,6 +627,61 @@ Opinions should not be amplified or suppressed disproportionally by algorithms. 
 **Measure:** Structural Diversity Index assesses network's propensity to sustain diversity
 :::
 
+---
+
+```{r}
+#| echo: false
+
+library(igraph)
+library(ggraph)
+library(ggplot2)
+library(patchwork) # For side-by-side layout
+
+# Generate networks
+set.seed(42)
+g_hetero <- sample_pa(n = 50, power = 1.2, m = 1, directed = FALSE)
+g_clustered <- sample_smallworld(dim = 1, size = 50, nei = 4, p = 0.05)
+
+# ----------------------------------------------------
+# Plot 1: Degree-Heterogeneous Network
+# ----------------------------------------------------
+V(g_hetero)$degree <- degree(g_hetero)
+# Top 10% highest degree nodes are labelled as influencers
+V(g_hetero)$Node_Type <- ifelse(V(g_hetero)$degree >= quantile(V(g_hetero)$degree, 0.90), "Influencer", "Peripheral")
+
+p1 <- ggraph(g_hetero, layout = "stress") + 
+  geom_edge_link(aes(alpha = ..index..), color = "gray40", show.legend = FALSE) + 
+  scale_edge_alpha(range = c(0.4, 0.4)) + # Keeps edges fully visible but unobtrusive
+  geom_node_point(aes(size = degree, color = Node_Type)) +
+  scale_color_manual(values = c("Influencer" = "#E64B35FF", "Peripheral" = "#4DBBD5FF")) +
+  scale_size_continuous(range = c(3, 10)) +
+  theme_graph() +
+  labs(title = "Degree-Heterogeneous Network",
+       subtitle = "Few hubs (influencers) pull all connections",
+       color = "Node Type", size = "Connections (Degree)")
+
+# ----------------------------------------------------
+# Plot 2: Highly Clustered Network
+# ----------------------------------------------------
+V(g_clustered)$Community <- as.factor(membership(cluster_walktrap(g_clustered)))
+
+p2 <- ggraph(g_clustered, layout = "fr") + 
+  geom_edge_link(color = "gray60", alpha = 0.4) + 
+  geom_node_point(aes(color = Community), size = 5, show.legend = FALSE) + 
+  scale_color_viridis_d(option = "plasma") +
+  theme_graph() +
+  labs(title = "Highly Clustered Network",
+       subtitle = "Balanced local communities with high cohesion")
+
+# Display side-by-side
+p1 + p2
+```
+
+---
+
+![](https://ars.els-cdn.com/content/image/1-s2.0-S1877750323001217-gr4_lrg.jpg)
+> "Behavioral diversity is promoted by removing links to highly connected individuals. If each individual in thenetwork (A) removes the connection to the most connected neighbor, one obtains network (B). The transition fromnetwork (A) to network (B) entails a substantial improvement in the network’s capacity to sustain diversity, which isquantified by an increase in the “structural diversity index”." [@helbingDemocracyDesignPerspectives2023]
+
 ## Polarization vs. Diversity
 
 **Important distinction:**
@@ -616,12 +729,21 @@ Manipulation and "Big Nudging" undermine democracy. Instead: Embrace deliberativ
 * Reduces polarization while maintaining diversity
 
 ::: footer
-Example of computational diplomacy in practice
+Example of computational diplomacy in practice. See Pol.is project repository [github.com/compdemocracy/polis](https://github.com/compdemocracy/polis) 
 :::
+
+---
+
+![](https://ars.els-cdn.com/content/image/1-s2.0-S1877750323001217-gr5_lrg.jpg){fig-align="center" width="50%"}
+
+> vTaiwan’s use of Pol.is for the discussion of Uber regulation [...] like-minded groups emerge quickly on the opinion map, transparently showing agreements and disagreements. People then naturally try to come up with comments that will win votes from different groups, thereby gradually overcoming the gaps. [@helbingDemocracyDesignPerspectives2023]
 
 ## Collective Intelligence: Four-Phase Process
 
 **Requirements for effective Collective Intelligence:**
+
+:::: {.columns}
+::: {.column width="50%"}
 
 1. **Independent exploration**
    * Unmanipulated search for solutions
@@ -630,6 +752,10 @@ Example of computational diplomacy in practice
 2. **Information exchange**
    * Share findings without bias
    * Transparent communication
+   
+:::
+
+::: {.column width="50%"}
 
 3. **Integration**
    * Combine solutions through deliberation
@@ -638,13 +764,17 @@ Example of computational diplomacy in practice
 4. **Voting**
    * Determine best combined solution
    * Fair aggregation methods
+   
+:::
+::::
+
 
 ::: callout-note
 ### Success Factors
 Equal distribution of conversational turn-taking > individual skill. Symmetrical interactions lead to optimal self-organization.
 :::
 
-## Quadratic Voting: Protecting Minority Interests
+## Quadratic Voting: Protecting Minority Interests {.smaller}
 
 **Innovation in voting system design**
 
@@ -654,11 +784,18 @@ Equal distribution of conversational turn-taking > individual skill. Symmetrical
 * Cost to cast votes = square of votes used
 * Makes it "expensive" to spend all credits on one option
 
+:::: {.columns}
+::: {.column width="50%"}
+
 **Example:**
 
 * 1 vote costs 1 credit
 * 2 votes cost 4 credits
 * 3 votes cost 9 credits
+
+:::
+
+::: {.column width="50%"}
 
 ::: fragment
 **Benefits:**
@@ -668,6 +805,13 @@ Equal distribution of conversational turn-taking > individual skill. Symmetrical
 * Encourages diversity of choices
 * Strengthens Collective Intelligence
 :::
+
+:::
+::::
+
+
+
+
 
 ## Voting Methods: User Experience Matters
 
@@ -718,7 +862,6 @@ Equal distribution of conversational turn-taking > individual skill. Symmetrical
 2. Open source, non-proprietary software
 3. Common problem definition language
 4. Transparency about motivations and incentives
-5. Professional role profiles with proper sanctions
 :::
 
 # Part 4: Enabling Technologies {background-color="#0148A4"}
@@ -818,26 +961,41 @@ The promise of blockchain for democracy depends entirely on design choices that 
 How to get benefits of digital assistance while preserving democratic values and resisting misuse?
 :::
 
-## Design Framework: Human-Machine Hybrid Collective Intelligence
+## Design Framework: Human-Machine Hybrid Collective Intelligence {.smaller}
 
 **Three essential elements:**
 
+:::: {.columns}
+::: {.column width="50%"}
+
 **1. Individual Autonomy**
+
 * Self-determined parameters and options
 * Personal data remains local
 * Sharing at aggregate level only
 * Differential privacy & homomorphic encryption
 
 **2. Digital Assistant Coordination**
+
 * Assistants coordinate peer-to-peer (not through central server)
 * Solve complex optimization cooperatively
 * Decentralized algorithms: federated learning, multi-agent reinforcement learning
 * No single points of failure
 
+:::
+
+::: {.column width="50%"}
+
+
 **3. Coordinated Feedback**
+
 * Recommendations based on personal values
 * Individuals can align or reject
 * Creates co-evolutionary learning
+
+:::
+::::
+
 
 ## Decentralized AI Methods
 
@@ -880,6 +1038,9 @@ All systems demonstrate that democratic values can be embedded in technical desi
 
 **Economic Planning and Optimized Selections (EPOS)**
 
+:::: {.columns}
+::: {.column width="50%"}
+
 **Applications:**
 
 * Energy management
@@ -888,12 +1049,20 @@ All systems demonstrate that democratic values can be embedded in technical desi
 * Traffic optimization
 * Cloud load-balancing
 
+:::
+
+::: {.column width="50%"}
+
 **How it works:**
 
 * Decentralized multi-agent systems
 * Self-organized tree topologies
 * Balances efficiency, comfort, and fairness
 * No central coordinator required
+
+:::
+::::
+
 
 ::: callout-note
 ### Bottom-Up Success
@@ -955,7 +1124,10 @@ Demonstrates that bottom-up approaches can outperform top-down management while 
 Technology should amplify human capability and democratic participation, not replace human decision-making
 :::
 
-## Seven Key Takeaways for Cybersecurity
+## Seven Key Takeaways for Cybersecurity [@helbingDemocracyDesignPerspectives2023] {.smaller}
+
+:::: {.columns}
+::: {.column width="50%"}
 
 1. **Technical design = political design**
    * Every architecture choice affects power distribution
@@ -969,6 +1141,10 @@ Technology should amplify human capability and democratic participation, not rep
 4. **Privacy and transparency can coexist**
    * Through cryptographic techniques and aggregate sharing
 
+:::
+
+::: {.column width="50%"}
+
 5. **Collective Intelligence requires specific conditions**
    * Not automatic, needs diversity and proper procedures
 
@@ -978,11 +1154,15 @@ Technology should amplify human capability and democratic participation, not rep
 7. **Value-sensitive design is necessary**
    * Not optional for public sector systems
 
-# Evolution and Revolution in Cyber Conflict {background-color="#0148A4"}
+:::
+::::
 
-## Evolutionary Technologies: Artificial Intelligence
+## Evolutionary Technologies: Artificial Intelligence [@whyteUnderstandingCyberWarfarePolitics2023, chap. 13] {.smaller}
 
 **AI as evolutionary force in cyber conflict**
+
+:::: {.columns}
+::: {.column width="50%"}
 
 **Tactical level impacts:**
 
@@ -991,18 +1171,25 @@ Technology should amplify human capability and democratic participation, not rep
 * Value calculations for strategic objectives
 * Makes cyber operations more accessible and sophisticated
 
+:::
+
+::: {.column width="50%"}
+
 **Operational level impacts:**
 
 * High-fidelity target comprehension
 * Diversification of available tools
 * Increased probability of compromise via lateral access
 
+:::
+::::
+
 ::: callout-warning
 ### Strategic Uncertainty
 AI systems themselves become high-value targets for Cyber Artificial Intelligence Attacks (CAIA)
 :::
 
-## AI Will "Hack Society"
+## AI Will "Hack Society" {.smaller}
 
 **Historical precedent: The printing press**
 
@@ -1012,14 +1199,19 @@ AI systems themselves become high-value targets for Cyber Artificial Intelligenc
 * Standardized education
 * Enabled labor mobilization
 
-::: fragment
+::: callout-important
+### Technology is Metamorphic
+Technology is not neutral. The same technologies developed in one context do not necessarily produce similar outcomes elsewhere. Value, power, and drivers of human interactions are shaped by prevailing narratives and the functional/moral decisions of those empowered to leverage resources within societal networks.
+:::
+
+---
+
 **AI is already changing society:**
 
 * Shifting psychology of technology users
 * Altering resilience to false information
 * Changing relationship to polity and each other
 * Creating new cognitive patterns
-:::
 
 ::: fragment
 > "AI hacks us, we hack each other, we all hack AI"
@@ -1028,6 +1220,9 @@ AI systems themselves become high-value targets for Cyber Artificial Intelligenc
 ## The Human Factor: Getting AI Right
 
 **Three critical issues:**
+
+:::: {.columns}
+::: {.column width="50%"}
 
 **1. Specification Problem**
 
@@ -1041,11 +1236,19 @@ AI systems themselves become high-value targets for Cyber Artificial Intelligenc
 * Unclear results reduce reliability
 * Critical for national security applications
 
+:::
+
+::: {.column width="50%"}
+
 **3. Explainability**
 
 * Must understand HOW and WHY AI reached conclusions
 * "Black box" problem common
 * Unpredictable variations from expected behavior
+
+:::
+::::
+
 
 ## Revolutionary Technologies: Quantum Computing
 
@@ -1053,7 +1256,7 @@ AI systems themselves become high-value targets for Cyber Artificial Intelligenc
 
 **Current status:**
 
-* Google: 72-qubit processor (equivalent to 2^72 conventional bits)
+* Google: 72-qubit processor (equivalent to $2^72$ conventional bits)
 * NSA: Alleged billion-dollar research program
 * Commercially available but applications mostly conceptual
 
@@ -1172,6 +1375,9 @@ Whyte & Mazanec (2023)
 
 **Three domains converging:**
 
+:::: {.columns}
+::: {.column width="50%"}
+
 1. **International governance**
    * Norm-setting struggles
    * Geopolitical rivalries
@@ -1181,11 +1387,20 @@ Whyte & Mazanec (2023)
    * Persistent engagement doctrine
    * Intelligence activities
    * Below-threshold operations
+   
+:::
+
+::: {.column width="50%"}
 
 3. **Democratic foundations**
    * Technology design choices
    * Participatory systems
    * Value-sensitive engineering
+
+:::
+::::
+
+
 
 ::: callout-note
 ### Holistic View Required
@@ -1324,37 +1539,7 @@ Training next generation to understand technology as inherently political and to
 As cybersecurity professionals, you will make decisions that affect democratic governance. Make them thoughtfully, with awareness of broader implications.
 :::
 
-## Questions and Discussion
-
-**Reflection questions:**
-
-1. How do we balance national security imperatives with international cooperation needs?
-
-2. What role should private companies play in norm-setting and governance?
-
-3. Can we design AI systems that genuinely enhance rather than undermine democracy?
-
-4. How do we prevent path dependencies from locking in flawed designs?
-
-5. What does "persistent engagement" mean for allies and international law?
-
-6. How can citizens meaningfully participate in complex technical governance decisions?
-
-## Thank You
-
-**Next steps:**
-
-* Complete final course reflections
-* Consider how these concepts apply to your career
-* Stay informed about evolving governance discussions
-* Participate in shaping the digital future
-
-::: callout-note
-### Remember
-You are not just defending systems - you are defending the foundations of democratic society.
-:::
-
-**Course feedback:** [student-surveys.sydney.edu.au](https://student-surveys.sydney.edu.au/students/)
+## Thank You and Good Luck with the exam!
 
 ## References
 
